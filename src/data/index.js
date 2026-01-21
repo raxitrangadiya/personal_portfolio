@@ -26,7 +26,7 @@ export const resumeData = {
         role: "Front-End Developer",
         location: "Halvad, Morbi",
         email: "raxitrangadiya8531@gmail.com",
-        phone: "+91 94088 50307",
+        // phone: "+91 94088 50307",
         social: {
             github: "https://github.com/raxitrangadiya",
             linkedin: "https://www.linkedin.com/in/raxitrangadiya/"
