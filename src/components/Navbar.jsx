@@ -20,7 +20,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#0a192f]/90 backdrop-blur-sm shadow-lg py-4' : 'bg-transparent py-6'}`}>
+        <nav className={`fixed w-full z-[100] transition-all duration-300 ${scrolled ? 'bg-[#0a192f]/90 backdrop-blur-sm shadow-lg py-4' : 'bg-transparent py-6'}`}>
             <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}

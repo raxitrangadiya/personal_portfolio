@@ -1,21 +1,22 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Background from './canvas/Background';
+
+import SocialSidebar from './components/SocialSidebar';
 
 function App() {
   return (
     <div className="relative text-textLight">
       <Background />
       <Navbar />
+      <SocialSidebar />
 
-      <main className="relative z-10 w-full">
+      <main className="relative z-10 w-full bg-[#0a192f]/0 backdrop-blur-[0.5px]">
         <Hero />
-        <Skills />
         <Experience />
         <Projects />
         <Contact />

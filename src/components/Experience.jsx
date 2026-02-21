@@ -44,40 +44,6 @@ export default function Experience() {
                     );
                 })}
             </div>
-
-            {/* Education Section embedded */}
-            <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="flex items-center gap-4 mb-10 mt-20"
-            >
-                <h2 className="text-2xl md:text-3xl font-bold text-textLight">
-                    Education
-                </h2>
-                <div className="h-[1px] bg-textDark/30 flex-grow max-w-xs"></div>
-            </motion.div>
-
-            <div className="space-y-8">
-                {resumeData.education.map((edu, index) => (
-                    <motion.div
-                        key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: index * 0.1 }}
-                        className="bg-[#112240] p-6 rounded-lg "
-                    >
-                        <h3 className="text-lg font-bold text-textLight">{edu.degree}</h3>
-                        <p className="text-primary">{edu.institution}</p>
-                        <div className="flex justify-between text-sm font-mono text-textDark mt-2">
-                            <span>{edu.year}</span>
-                            <span>{edu.location}</span>
-                        </div>
-                        {edu.grade && <p className="text-textDark mt-2 text-sm">Grade: {edu.grade}</p>}
-                    </motion.div>
-                ))}
-            </div>
         </section>
     );
 }

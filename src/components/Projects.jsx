@@ -10,7 +10,7 @@ export default function Projects() {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 mb-10"
+                className="flex items-center gap-4 mb-16"
             >
                 <h2 className="text-2xl md:text-3xl font-bold text-textLight">
                     <span className="text-primary font-mono mr-2">04.</span>
@@ -19,7 +19,7 @@ export default function Projects() {
                 <div className="h-[1px] bg-textDark/30 flex-grow max-w-xs"></div>
             </motion.div>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-8">
                 {resumeData.projects.map((project, index) => (
                     <motion.div
                         key={index}
@@ -27,37 +27,53 @@ export default function Projects() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
-                        className="group bg-[#112240] p-6 rounded-lg hover:-translate-y-2 transition-transform duration-300"
+                        className="group relative rounded-xl overflow-hidden hover:-translate-y-2 transition-transform duration-300"
                     >
-                        <div className="flex justify-between items-center mb-6">
-                            <Folder className="text-primary w-10 h-10" />
-                            <div className="flex gap-4">
-                                <a href="#" className="text-textDark hover:text-primary"><Github className="w-5 h-5" /></a>
-                                <a href="#" className="text-textDark hover:text-primary"><ExternalLink className="w-5 h-5" /></a>
+                        {/* Glassmorphism Background Layer */}
+                        <div className="absolute inset-0 bg-[#112240]/80 backdrop-blur-sm border border-white/10 rounded-xl transition-all duration-300 group-hover:border-primary/50"></div>
+
+                        {/* Content Container */}
+                        <div className="relative z-10 flex flex-col h-full">
+
+                            {/* Image Section */}
+                            <div className="relative h-48 overflow-hidden rounded-t-xl group">
+                                <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-[#0a192f] to-transparent opacity-80 z-10"></div>
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                />
                             </div>
-                        </div>
 
-                        <h3 className="text-xl font-bold text-textLight mb-2 group-hover:text-primary transition-colors">
-                            {project.title}
-                        </h3>
+                            {/* Details Section */}
+                            <div className="p-6 flex flex-col flex-grow">
+                                <div className="flex justify-between items-center mb-4">
+                                    <Folder className="text-primary w-10 h-10" />
+                                    <div className="flex gap-4">
+                                        <a href="#" className="text-textLight/70 hover:text-primary transition-colors"><Github className="w-5 h-5" /></a>
+                                        <a href="#" className="text-textLight/70 hover:text-primary transition-colors"><ExternalLink className="w-5 h-5" /></a>
+                                    </div>
+                                </div>
 
-                        <p className="text-textDark mb-4 text-sm">
-                            {project.description}
-                        </p>
+                                <h3 className="text-xl font-bold text-textLight mb-2 group-hover:text-primary transition-colors">
+                                    {project.title}
+                                </h3>
 
-                        <ul className="text-xs font-mono text-textDark/60 mb-4 list-disc pl-4 space-y-1">
-                            {project.features.slice(0, 3).map((f, i) => (
-                                <li key={i}>{f}</li>
-                            ))}
-                            {project.features.length > 3 && <li>+{project.features.length - 3} more features</li>}
-                        </ul>
+                                <div className="text-textDark mb-6 text-sm line-clamp-3 leading-relaxed">
+                                    {project.description}
+                                </div>
 
-                        <div className="flex flex-wrap gap-3 mt-auto">
-                            {project.technologies.map(tech => (
-                                <span key={tech} className="text-xs font-mono text-textLight/80">
-                                    {tech}
-                                </span>
-                            ))}
+                                <div className="mt-auto">
+                                    <ul className="flex flex-wrap gap-x-4 gap-y-2 text-xs font-mono text-textLight/60">
+                                        {project.technologies.slice(0, 4).map(tech => (
+                                            <li key={tech} className="hover:text-primary transition-colors">
+                                                {tech}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
                 ))}
