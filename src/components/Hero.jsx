@@ -58,23 +58,7 @@ export default function Hero() {
 
                     {/* Profile Image */}
                     {/* Profile Image */}
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.5 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5 }}
-                        className="relative w-48 h-48 md:w-64 md:h-64 flex-shrink-0"
-                    >
-                        {/* Gradient Border */}
-                        <div className="absolute -inset-1 bg-gradient-to-r from-galaxy-blue via-galaxy-purple to-galaxy-pink rounded-full opacity-75 blur transition-opacity duration-500 hover:opacity-100"></div>
 
-                        <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-textLight/10 bg-secondary">
-                            <img
-                                src={profileImg}
-                                alt="Profile"
-                                className="w-full h-full object-cover rounded-full hover:scale-110 transition-transform duration-500"
-                            />
-                        </div>
-                    </motion.div>
                 </div>
             </div>
         </section>
