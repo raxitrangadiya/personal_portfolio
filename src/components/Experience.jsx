@@ -4,45 +4,75 @@ import { resumeData } from '../data';
 
 export default function Experience() {
     return (
-        <section id="experience" className="py-20 max-w-4xl mx-auto px-6">
+        <section id="experience" className="py-20 max-w-5xl mx-auto px-6 relative overflow-hidden">
             <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 mb-10"
+                className="flex items-center gap-4 mb-16 max-w-4xl mx-auto"
             >
-                <h2 className="text-2xl md:text-3xl font-bold text-textLight">
-                    <span className="text-primary font-mono mr-2">03.</span>
+                <h2 className="text-2xl md:text-3xl font-bold text-textPrimary font-display">
                     Where I've Worked
                 </h2>
-                <div className="h-[1px] bg-textDark/30 flex-grow max-w-xs"></div>
+                <div className="h-[1px] bg-borderGlass flex-grow max-w-xs"></div>
             </motion.div>
 
-            <div className="space-y-12">
-                {resumeData.experience.map((exp, index) => {
-                    const Icon = exp.icon;
-                    return (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: index * 0.1 }}
-                            className="relative pl-8 border-l-2 border-[#233554] hover:border-primary transition-colors"
-                        >
-                            <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-[#0a192f] border-2 border-primary"></div>
+            <div className="relative max-w-4xl mx-auto">
+                {/* Timeline Path Line - Centered on Desktop, Left-aligned on Mobile */}
+                <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-accentPrimary via-accentGlow to-accentAi -translate-x-1/2 z-0" />
 
-                            <h3 className="text-xl font-bold text-textLight">
-                                {exp.role} <span className="text-primary">@ {exp.company}</span>
-                            </h3>
-                            <p className="font-mono text-sm text-textDark mb-4">{exp.duration}</p>
+                <div className="space-y-12 relative z-10">
+                    {resumeData.experience.map((exp, index) => {
+                        const isEven = index % 2 === 0;
+                        return (
+                            <div 
+                                key={index} 
+                                className={`flex flex-col md:flex-row items-stretch w-full ${isEven ? 'md:flex-row-reverse' : ''}`}
+                            >
+                                {/* Left/Right spacer to push card to correct side on desktop */}
+                                <div className="hidden md:block w-1/2" />
 
-                            <p className="text-textDark max-w-xl">
-                                {exp.description}
-                            </p>
-                        </motion.div>
-                    );
-                })}
+                                {/* Timeline node point */}
+                                <div className="absolute left-4 md:left-1/2 w-4 h-4 rounded-full bg-bgVoid border-2 border-accentPrimary -translate-x-1/2 mt-6 z-20 shadow-[0_0_10px_#6C63FF]" />
+
+                                {/* Card Container */}
+                                <motion.div
+                                    initial={{ opacity: 0, x: isEven ? 30 : -30 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    viewport={{ once: true, margin: "-100px" }}
+                                    transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                                    className="w-full md:w-1/2 pl-10 md:pl-0 md:px-8 flex"
+                                >
+                                    <div 
+                                        className={`glass-panel p-6 rounded-2xl w-full border border-borderGlass shadow-2xl relative transform transition-transform duration-500 hover:scale-[1.01] hover:border-accentPrimary/30`}
+                                        style={{ 
+                                            // 3D rotation Y tilting toward center line
+                                            transform: `perspective(1000px) rotateY(${isEven ? '-3deg' : '3deg'})`
+                                        }}
+                                    >
+                                        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-3">
+                                            <div>
+                                                <h3 className="text-lg font-bold text-textPrimary font-display">
+                                                    {exp.role}
+                                                </h3>
+                                                <p className="text-sm font-mono text-accentPrimary font-semibold">
+                                                    @ {exp.company}
+                                                </p>
+                                            </div>
+                                            <span className="text-xs font-mono text-textMuted bg-bgSurface px-3 py-1 rounded-full border border-borderGlass/50 self-start sm:self-auto">
+                                                {exp.duration}
+                                            </span>
+                                        </div>
+
+                                        <p className="text-textMuted text-sm leading-relaxed font-sans">
+                                            {exp.description}
+                                        </p>
+                                    </div>
+                                </motion.div>
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
         </section>
     );

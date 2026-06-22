@@ -92,7 +92,7 @@ function Galaxy(props) {
 
 export default function Background() {
     return (
-        <div className="fixed top-0 left-0 w-full h-full -z-10 bg-[#050510]">
+        <div className="fixed top-0 left-0 w-full h-full -z-10 bg-[#02020a]">
             <Canvas camera={{ position: [0, 3, 6], fov: 60 }}>
                 {/* Background stars for depth */}
                 <DreiStars radius={100} depth={50} count={2000} factor={4} saturation={0} fade speed={1} />
