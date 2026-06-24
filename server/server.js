@@ -83,6 +83,7 @@ app.use((req, res, next) => {
 });
 
 // MongoDB connection
+mongoose.set('bufferCommands', false);
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolio')
     .then(async () => {
         console.log('Connected to MongoDB successfully.');
@@ -651,6 +652,9 @@ app.post('/api/messages', contactLimiter, [
             };
             playwrightMockMessages.unshift(savedMessage);
         } else {
+            if (mongoose.connection.readyState !== 1) {
+                return res.status(503).json({ error: 'Database connection is currently offline. Please try again later.' });
+            }
             const newMessage = new Message({ 
                 name, 
                 email, 
