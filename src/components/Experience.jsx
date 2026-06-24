@@ -19,7 +19,7 @@ export default function Experience() {
 
             <div className="relative max-w-4xl mx-auto">
                 {/* Timeline Path Line - Centered on Desktop, Left-aligned on Mobile */}
-                <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-accentPrimary via-accentGlow to-accentAi -translate-x-1/2 z-0" />
+                <div className="absolute left-4 lg:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-accentPrimary via-accentGlow to-accentAi -translate-x-1/2 z-0" />
 
                 <div className="space-y-12 relative z-10">
                     {resumeData.experience.map((exp, index) => {
@@ -27,13 +27,13 @@ export default function Experience() {
                         return (
                             <div 
                                 key={index} 
-                                className={`flex flex-col md:flex-row items-stretch w-full ${isEven ? 'md:flex-row-reverse' : ''}`}
+                                className={`flex flex-col lg:flex-row items-stretch w-full ${isEven ? 'lg:flex-row-reverse' : ''}`}
                             >
                                 {/* Left/Right spacer to push card to correct side on desktop */}
-                                <div className="hidden md:block w-1/2" />
+                                <div className="hidden lg:block w-1/2" />
 
                                 {/* Timeline node point */}
-                                <div className="absolute left-4 md:left-1/2 w-4 h-4 rounded-full bg-bgVoid border-2 border-accentPrimary -translate-x-1/2 mt-6 z-20 shadow-[0_0_10px_#6C63FF]" />
+                                <div className="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-bgVoid border-2 border-accentPrimary -translate-x-1/2 mt-6 z-20 shadow-[0_0_10px_#6C63FF]" />
 
                                 {/* Card Container */}
                                 <motion.div
@@ -41,7 +41,7 @@ export default function Experience() {
                                     whileInView={{ opacity: 1, x: 0 }}
                                     viewport={{ once: true, margin: "-100px" }}
                                     transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-                                    className="w-full md:w-1/2 pl-10 md:pl-0 md:px-8 flex"
+                                    className="w-full lg:w-1/2 pl-10 lg:pl-0 lg:px-8 flex"
                                 >
                                     <div 
                                         className={`glass-panel p-6 rounded-2xl w-full border border-borderGlass shadow-2xl relative transform transition-transform duration-500 hover:scale-[1.01] hover:border-accentPrimary/30`}

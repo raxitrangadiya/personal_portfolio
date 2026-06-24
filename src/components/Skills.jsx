@@ -6,10 +6,7 @@ import * as LucideIcons from 'lucide-react';
 import { Code, Terminal } from 'lucide-react';
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-const HEX_W = 138;
-const HEX_H = 154;
-const HEX_GAP = 5;
-const HEX_OVERLAP = 37;
+const DEFAULT_HEX_CONFIG = { w: 138, h: 154, gap: 5, overlap: 37 };
 const HEX_CLIP = 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -41,7 +38,7 @@ function isAiCat(cat) {
 }
 
 // ─── Single hexagonal skill card ─────────────────────────────────────────────────
-function HexCard({ skill, color, isAi, idx }) {
+function HexCard({ skill, color, isAi, idx, config = DEFAULT_HEX_CONFIG }) {
     const [tilt,    setTilt]    = useState({ rotX: 0, rotY: 0 });
     const [spot,    setSpot]    = useState(null);
     const [hovered, setHovered] = useState(false);
@@ -89,7 +86,7 @@ function HexCard({ skill, color, isAi, idx }) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.55 }}
             transition={{ delay: idx * 0.038, type: 'spring', stiffness: 230, damping: 22 }}
-            style={{ width: HEX_W, height: HEX_H, flexShrink: 0, position: 'relative' }}
+            style={{ width: config.w, height: config.h, flexShrink: 0, position: 'relative' }}
         >
             {/* Tilt + glow wrapper */}
             <div
@@ -219,7 +216,7 @@ function HexCard({ skill, color, isAi, idx }) {
 }
 
 // ─── Category group: header + honeycomb rows ────────────────────────────────────────────
-function CategoryGroup({ category, catSkills, hexesPerRow }) {
+function CategoryGroup({ category, catSkills, hexesPerRow, config = DEFAULT_HEX_CONFIG }) {
     const color = getCategoryColor(category);
 
     const rows = useMemo(() => {
@@ -266,9 +263,9 @@ function CategoryGroup({ category, catSkills, hexesPerRow }) {
                         key={rIdx}
                         className="flex justify-center"
                         style={{
-                            gap: `${HEX_GAP}px`,
-                            marginTop: rIdx === 0 ? 0 : `-${HEX_OVERLAP}px`,
-                            paddingLeft: rIdx % 2 === 1 ? `${(HEX_W + HEX_GAP) * 0.5}px` : '0',
+                            gap: `${config.gap}px`,
+                            marginTop: rIdx === 0 ? 0 : `-${config.overlap}px`,
+                            paddingLeft: rIdx % 2 === 1 ? `${(config.w + config.gap) * 0.5}px` : '0',
                         }}
                     >
                         {row.map((skill, i) => (
@@ -278,6 +275,7 @@ function CategoryGroup({ category, catSkills, hexesPerRow }) {
                                 color={getCategoryColor(skill.category)}
                                 isAi={isAiCat(skill.category)}
                                 idx={rIdx * hexesPerRow + i}
+                                config={config}
                             />
                         ))}
                     </div>
@@ -293,11 +291,34 @@ function CategoryGroup({ category, catSkills, hexesPerRow }) {
 export default function Skills({ skills }) {
     const [activeTab,   setActiveTab]   = useState('All');
     const [hexesPerRow, setHexesPerRow] = useState(6);
+    const [honeycombConfig, setHoneycombConfig] = useState(DEFAULT_HEX_CONFIG);
 
     useEffect(() => {
         function update() {
             const w = window.innerWidth;
-            setHexesPerRow(w < 480 ? 2 : w < 640 ? 3 : w < 900 ? 4 : w < 1100 ? 5 : 6);
+            let config = { w: 138, h: 154, gap: 5, overlap: 37 };
+            let rows = 6;
+            if (w < 350) {
+                config = { w: 85, h: 95, gap: 4, overlap: 22 };
+                rows = 2;
+            } else if (w < 400) {
+                config = { w: 95, h: 106, gap: 4, overlap: 25 };
+                rows = 2;
+            } else if (w < 480) {
+                config = { w: 110, h: 122, gap: 4, overlap: 29 };
+                rows = 2;
+            } else if (w < 640) {
+                config = { w: 110, h: 122, gap: 4, overlap: 29 };
+                rows = 3;
+            } else if (w < 900) {
+                config = { w: 120, h: 134, gap: 4, overlap: 32 };
+                rows = 4;
+            } else if (w < 1100) {
+                config = { w: 130, h: 145, gap: 5, overlap: 35 };
+                rows = 5;
+            }
+            setHoneycombConfig(config);
+            setHexesPerRow(rows);
         }
         update();
         window.addEventListener('resize', update);
@@ -400,7 +421,8 @@ export default function Skills({ skills }) {
                                 visibleCats.map(cat => (
                                     <CategoryGroup key={cat} category={cat}
                                         catSkills={skills.filter(s => s.category === cat)}
-                                        hexesPerRow={hexesPerRow} />
+                                        hexesPerRow={hexesPerRow}
+                                        config={honeycombConfig} />
                                 ))
                             )}
                         </motion.div>
