@@ -37,11 +37,13 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS
 
 app.use(cors({
     origin: (origin, callback) => {
-        if (!origin || allowedOrigins.includes(origin) || allowedOrigins.includes('*')) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
+        // Allow requests with no origin (server-to-server, same-origin on Vercel)
+        if (!origin) return callback(null, true);
+        // Allow explicitly listed origins
+        if (allowedOrigins.includes(origin) || allowedOrigins.includes('*')) return callback(null, true);
+        // Allow any *.vercel.app subdomain (preview and production deployments)
+        if (/\.vercel\.app$/.test(new URL(origin).hostname)) return callback(null, true);
+        callback(new Error('Not allowed by CORS'));
     },
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'x-playwright-test']

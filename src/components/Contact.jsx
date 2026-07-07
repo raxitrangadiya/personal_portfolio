@@ -30,8 +30,15 @@ export default function Contact() {
                 body: JSON.stringify(formData)
             });
 
+            // Check content-type before parsing to avoid HTML parse errors
+            const contentType = res.headers.get('content-type') || '';
+            if (!contentType.includes('application/json')) {
+                throw new Error('Server returned an unexpected response. Please try again later.');
+            }
+
+            const data = await res.json();
+
             if (!res.ok) {
-                const data = await res.json();
                 throw new Error(data.error || 'Could not submit form.');
             }
 
