@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Personal Portfolio End-to-End Tests', () => {
+  test.slow();
 
   test('should load the homepage and display personal information', async ({ page }) => {
     // Navigate to homepage

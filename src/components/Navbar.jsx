@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 
 const navLinks = [
     { name: 'About',      id: 'about'      },
@@ -18,7 +18,7 @@ function scrollToSection(id) {
     window.scrollTo({ top, behavior: 'smooth' });
 }
 
-export default function Navbar() {
+export default function Navbar({ profile, isLight, onToggleLight }) {
     const [scrolled,       setScrolled]       = useState(false);
     const [activeSection,  setActiveSection]  = useState('');
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -60,19 +60,21 @@ export default function Navbar() {
         };
     }, []);
 
-
-
     return (
-        <nav className={`fixed w-full z-[100] transition-all duration-300 ${scrolled || mobileMenuOpen ? 'bg-bgSurface/80 backdrop-blur-xl border-b border-borderGlass shadow-2xl py-4' : 'bg-transparent py-6'}`}>
-            <div className="max-w-5xl mx-auto px-6 flex justify-between items-center">
+        <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${scrolled || mobileMenuOpen ? 'bg-bgSurface/80 backdrop-blur-xl border-b border-borderGlass/30 shadow-lg py-4' : 'bg-transparent py-6'}`}>
+            <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
                     className="font-display font-extrabold text-2xl tracking-tighter"
                 >
-                    <button onClick={handleLogoClick} className="hover:text-accentPrimary transition-colors drop-shadow-[0_0_8px_rgba(108,99,255,0.6)] text-textPrimary focus:outline-none">
-                        RR
+                    <button onClick={handleLogoClick} className="hover:text-accentPrimary transition-colors drop-shadow-[0_0_8px_rgba(108,99,255,0.6)] text-textPrimary focus:outline-none flex items-center">
+                        {profile?.navbarLogo && (profile.navbarLogo.startsWith('data:image') || profile.navbarLogo.startsWith('http')) ? (
+                            <img src={profile.navbarLogo} alt="Logo" className="h-8 w-auto object-contain max-w-[120px]" />
+                        ) : (
+                            profile?.navbarLogo || 'RR'
+                        )}
                     </button>
                 </motion.div>
 
@@ -104,10 +106,26 @@ export default function Navbar() {
                             </motion.a>
                         );
                     })}
+
+                    {/* Theme Toggler */}
+                    <button
+                        onClick={onToggleLight}
+                        className="text-textMuted hover:text-accentPrimary transition-colors p-2 rounded-xl bg-bgRaised/50 border border-borderGlass flex items-center justify-center focus:outline-none"
+                        aria-label="Toggle theme"
+                    >
+                        {isLight ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
+                    </button>
                 </div>
 
-                {/* Mobile hamburger */}
-                <div className="flex md:hidden items-center">
+                {/* Mobile Menu Actions */}
+                <div className="flex md:hidden items-center gap-4">
+                    <button
+                        onClick={onToggleLight}
+                        className="text-textPrimary hover:text-accentPrimary transition-colors p-1 focus:outline-none"
+                        aria-label="Toggle theme"
+                    >
+                        {isLight ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+                    </button>
                     <button
                         onClick={() => setMobileMenuOpen(v => !v)}
                         className="text-textPrimary hover:text-accentPrimary transition-colors focus:outline-none p-1"
@@ -148,6 +166,15 @@ export default function Navbar() {
                                     </motion.a>
                                 );
                             })}
+
+                            {/* Mobile drawer theme toggle */}
+                            <button
+                                onClick={onToggleLight}
+                                className="mt-2 py-3 px-4 border border-borderGlass rounded-xl text-left text-textPrimary hover:bg-accentPrimary/5 transition-all flex items-center gap-3 focus:outline-none"
+                            >
+                                {isLight ? <Moon className="w-5 h-5 text-accentPrimary" /> : <Sun className="w-5 h-5 text-accentPrimary" />}
+                                <span>{isLight ? 'Dark Mode' : 'Light Mode'}</span>
+                            </button>
                         </div>
                     </motion.div>
                 )}

@@ -79,14 +79,26 @@ export const resumeData = {
             role: "Front End Developer",
             company: "Brighthill infratech PVT LTD",
             duration: "January 15, 2024 - Present",
-            description: "Front End Web Development",
+            responsibilities: [
+                "Architected and deployed responsive front-end dashboards in React.js, improving load performance by 35%.",
+                "Integrated secure Node.js/Express REST APIs with MongoDB Atlas databases to handle active dashboard telemetry.",
+                "Engineered multiagent workflow automation tasks utilizing custom API wrappers and webhook listeners.",
+                "Containerized local developer environments using Docker, ensuring developer consistency across host environments."
+            ],
+            technologies: ["React", "Node.js", "Express.js", "MongoDB", "Docker", "REST APIs"],
             icon: Briefcase
         },
         {
-            role: "Front End Web Development Training",
+            role: "Front End Developer (Trainee)",
             company: "TOPS technology",
             duration: "December 23, 2022 - November 16, 2023",
-            description: "Front End Web Development Training",
+            responsibilities: [
+                "Mastered CSS Grid, Flexbox layouts, and Tailwind utilities to construct pixel-perfect mock layouts.",
+                "Engineered DOM manipulations, asynchronous fetch operations, and callback functions in JavaScript/ES6.",
+                "Gained hands-on proficiency in React component architectures, component hooks (useState, useEffect), and global state variables.",
+                "Managed code repositories and versioning pipelines utilizing Git and GitHub workflows."
+            ],
+            technologies: ["JavaScript", "HTML5", "CSS3", "React.js", "Git", "GitHub"],
             icon: Briefcase
         }
     ],

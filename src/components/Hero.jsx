@@ -1,19 +1,18 @@
 import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { resumeData } from '../data';
 import { FaReact, FaNodeJs, FaDocker } from 'react-icons/fa';
-import { SiPostgresql, SiExpress } from 'react-icons/si';
+import { SiPostgresql } from 'react-icons/si';
 import { Cpu, Terminal, ArrowRight, Download } from 'lucide-react';
 
 export default function Hero({ profile }) {
     // Generate 80 floating particles at random positions and speed
     const particles = useMemo(() => {
         const temp = [];
-        for (let i = 0; i < 80; i++) {
-            const size = Math.random() * 4 + 1;
+        for (let i = 0; i < 60; i++) {
+            const size = Math.random() * 3 + 1;
             const left = Math.random() * 100;
             const delay = Math.random() * 15;
-            const duration = Math.random() * 10 + 10; // 10s to 20s
+            const duration = Math.random() * 12 + 12; // 12s to 24s
             const isAi = Math.random() > 0.7; // 30% are cyan AI particles
             temp.push({ id: i, size, left, delay, duration, isAi });
         }
@@ -29,14 +28,18 @@ export default function Hero({ profile }) {
         { name: 'AI / LLMs', icon: Cpu, isAi: true, animClass: 'animate-orbit-counter', delay: '-10s' },
     ];
 
+    const bioText = (profile.objective && !profile.objective.startsWith('The objective is to efficiently'))
+        ? profile.objective
+        : "I build high-performance full-stack web applications and intelligent automation workflows. Specializing in the React/Node.js ecosystem, database optimization, and multiagent AI integrations.";
+
     return (
-        <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-bgVoid pt-16">
+        <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-bgVoid pt-20 pb-16">
             {/* 3D Parallax floating particle field */}
             <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
                 {particles.map((p) => (
                     <div
                         key={p.id}
-                        className={`absolute rounded-full opacity-60 ${p.isAi ? 'bg-accentAi shadow-[0_0_8px_#00E5FF]' : 'bg-accentPrimary'}`}
+                        className={`absolute rounded-full opacity-60 ${p.isAi ? 'bg-accentAi shadow-[0_0_8px_var(--accent-ai)]' : 'bg-accentPrimary shadow-[0_0_8px_var(--accent-primary)]'}`}
                         style={{
                             left: `${p.left}%`,
                             width: `${p.size}px`,
@@ -49,14 +52,14 @@ export default function Hero({ profile }) {
                 ))}
             </div>
 
-            <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center relative z-10 w-full py-12 md:py-20">
+            <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center relative z-10 w-full py-16 md:py-24">
                 {/* Hero Bio Text */}
                 <div className="lg:col-span-7 flex flex-col justify-center text-left">
                     <motion.div
                         initial={{ opacity: 0, y: 15 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
-                        className="font-mono text-xs tracking-widest text-accentPrimary mb-3 uppercase"
+                        className="font-mono text-xs md:text-sm tracking-widest text-accentPrimary mb-4 uppercase"
                     >
                         <span className="text-accentPrimary font-mono mr-1.5 animate-pulse">&gt;_</span> Creative Systems & Intelligence
                     </motion.div>
@@ -74,9 +77,9 @@ export default function Hero({ profile }) {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="text-2xl sm:text-3xl md:text-5xl font-bold text-textPrimary mb-6 tracking-tight font-display"
+                        className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-textPrimary mb-6 tracking-tight font-display"
                     >
-                        {profile.role}
+                        {profile.role.includes("Front-End") ? "Full Stack Developer" : profile.role}
                     </motion.h2>
 
                     <motion.p
@@ -85,25 +88,25 @@ export default function Hero({ profile }) {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         className="max-w-xl text-textMuted text-base md:text-lg mb-8 leading-relaxed font-sans"
                     >
-                        {profile.objective}
+                        {bioText}
                     </motion.p>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
-                        className="flex flex-wrap gap-4"
+                        className="flex flex-wrap gap-4 z-20"
                     >
                         <a
                             href="#work"
-                            className="bg-accentPrimary text-textPrimary px-8 py-4 rounded-xl font-label font-bold text-sm shadow-[4px_4px_0_0_rgba(167,139,250,0.4)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_0_rgba(167,139,250,0.4)] transition-all duration-200 flex items-center gap-2 group"
+                            className="bg-accentPrimary hover:bg-accentPrimary/90 text-textPrimary px-8 py-4 rounded-xl font-label font-bold text-sm shadow-[0_4px_20px_rgba(108,99,255,0.25)] hover:shadow-[0_4px_30px_rgba(108,99,255,0.4)] transition-all duration-200 flex items-center gap-2 group"
                         >
                             Explore Projects <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
                             href="/resume.pdf"
                             target="_blank"
-                            className="border border-borderGlass text-textPrimary px-8 py-4 rounded-xl font-label font-bold text-sm hover:bg-white/[0.03] hover:border-accentPrimary transition-all duration-200 flex items-center gap-2"
+                            className="border-2 border-borderGlass text-textPrimary hover:border-accentPrimary hover:bg-accentPrimary/5 px-8 py-4 rounded-xl font-label font-bold text-sm transition-all duration-200 flex items-center gap-2"
                         >
                             Download CV <Download className="w-4 h-4" />
                         </a>
@@ -141,6 +144,23 @@ export default function Hero({ profile }) {
                             );
                         })}
                     </div>
+                </div>
+            </div>
+
+            {/* Scroll Indicator */}
+            <div 
+                className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 opacity-50 hover:opacity-100 transition-opacity cursor-pointer z-10"
+                onClick={() => {
+                    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+            >
+                <span className="text-[9px] font-mono tracking-widest uppercase text-textMuted">Scroll to explore</span>
+                <div className="w-5 h-8 border-2 border-textMuted/50 rounded-full flex justify-center p-1">
+                    <motion.div
+                        animate={{ y: [0, 8, 0] }}
+                        transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                        className="w-1.5 h-1.5 bg-accentPrimary rounded-full"
+                    />
                 </div>
             </div>
         </section>

@@ -161,7 +161,7 @@ export default function Projects() {
     }, []);
 
     return (
-        <section id="work" className="py-20 max-w-4xl mx-auto px-6">
+        <section id="work" className="py-24 max-w-6xl mx-auto px-6">
             <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}

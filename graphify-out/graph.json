@@ -1,0 +1,5148 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L1",
+      "id": "eslint_config_js",
+      "community": 15,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 7,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "personal_portfolio_package_name",
+      "community": 7,
+      "norm_label": "name"
+    },
+    {
+      "label": "homepage",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "personal_portfolio_package_homepage",
+      "community": 7,
+      "norm_label": "homepage"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "personal_portfolio_package_private",
+      "community": 7,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "personal_portfolio_package_version",
+      "community": 7,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "personal_portfolio_package_type",
+      "community": 7,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "personal_portfolio_package_scripts",
+      "community": 7,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "personal_portfolio_package_scripts_dev",
+      "community": 7,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "personal_portfolio_package_scripts_build",
+      "community": 7,
+      "norm_label": "build"
+    },
+    {
+      "label": "predeploy",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "personal_portfolio_package_scripts_predeploy",
+      "community": 7,
+      "norm_label": "predeploy"
+    },
+    {
+      "label": "deploy",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "personal_portfolio_package_scripts_deploy",
+      "community": 7,
+      "norm_label": "deploy"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "personal_portfolio_package_scripts_lint",
+      "community": 7,
+      "norm_label": "lint"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "personal_portfolio_package_scripts_preview",
+      "community": 7,
+      "norm_label": "preview"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "personal_portfolio_package_scripts_test",
+      "community": 7,
+      "norm_label": "test"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "personal_portfolio_package_dependencies",
+      "community": 4,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@emailjs/browser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "personal_portfolio_package_dependencies_emailjs_browser",
+      "community": 4,
+      "norm_label": "@emailjs/browser"
+    },
+    {
+      "label": "@react-three/drei",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "personal_portfolio_package_dependencies_react_three_drei",
+      "community": 4,
+      "norm_label": "@react-three/drei"
+    },
+    {
+      "label": "@react-three/fiber",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "id": "personal_portfolio_package_dependencies_react_three_fiber",
+      "community": 4,
+      "norm_label": "@react-three/fiber"
+    },
+    {
+      "label": "@types/three",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "personal_portfolio_package_dependencies_types_three",
+      "community": 4,
+      "norm_label": "@types/three"
+    },
+    {
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "personal_portfolio_package_dependencies_autoprefixer",
+      "community": 4,
+      "norm_label": "autoprefixer"
+    },
+    {
+      "label": "bcryptjs",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "id": "personal_portfolio_package_dependencies_bcryptjs",
+      "community": 4,
+      "norm_label": "bcryptjs"
+    },
+    {
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "personal_portfolio_package_dependencies_cors",
+      "community": 4,
+      "norm_label": "cors"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "personal_portfolio_package_dependencies_dotenv",
+      "community": 4,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "personal_portfolio_package_dependencies_express",
+      "community": 4,
+      "norm_label": "express"
+    },
+    {
+      "label": "express-rate-limit",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "personal_portfolio_package_dependencies_express_rate_limit",
+      "community": 4,
+      "norm_label": "express-rate-limit"
+    },
+    {
+      "label": "express-validator",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "personal_portfolio_package_dependencies_express_validator",
+      "community": 4,
+      "norm_label": "express-validator"
+    },
+    {
+      "label": "framer-motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "id": "personal_portfolio_package_dependencies_framer_motion",
+      "community": 4,
+      "norm_label": "framer-motion"
+    },
+    {
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "id": "personal_portfolio_package_dependencies_helmet",
+      "community": 4,
+      "norm_label": "helmet"
+    },
+    {
+      "label": "jsonwebtoken",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "id": "personal_portfolio_package_dependencies_jsonwebtoken",
+      "community": 4,
+      "norm_label": "jsonwebtoken"
+    },
+    {
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "id": "personal_portfolio_package_dependencies_lucide_react",
+      "community": 4,
+      "norm_label": "lucide-react"
+    },
+    {
+      "label": "maath",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "id": "personal_portfolio_package_dependencies_maath",
+      "community": 4,
+      "norm_label": "maath"
+    },
+    {
+      "label": "mongoose",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "id": "personal_portfolio_package_dependencies_mongoose",
+      "community": 4,
+      "norm_label": "mongoose"
+    },
+    {
+      "label": "nodemailer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "id": "personal_portfolio_package_dependencies_nodemailer",
+      "community": 4,
+      "norm_label": "nodemailer"
+    },
+    {
+      "label": "postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "id": "personal_portfolio_package_dependencies_postcss",
+      "community": 4,
+      "norm_label": "postcss"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "id": "personal_portfolio_package_dependencies_react",
+      "community": 4,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "id": "personal_portfolio_package_dependencies_react_dom",
+      "community": 4,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "react-icons",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "id": "personal_portfolio_package_dependencies_react_icons",
+      "community": 4,
+      "norm_label": "react-icons"
+    },
+    {
+      "label": "react-router-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "id": "personal_portfolio_package_dependencies_react_router_dom",
+      "community": 4,
+      "norm_label": "react-router-dom"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "id": "personal_portfolio_package_dependencies_tailwindcss",
+      "community": 4,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "three",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "id": "personal_portfolio_package_dependencies_three",
+      "community": 4,
+      "norm_label": "three"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "id": "personal_portfolio_package_devdependencies",
+      "community": 9,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "id": "personal_portfolio_package_devdependencies_eslint_js",
+      "community": 9,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@playwright/test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "id": "personal_portfolio_package_devdependencies_playwright_test",
+      "community": 9,
+      "norm_label": "@playwright/test"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "id": "personal_portfolio_package_devdependencies_types_react",
+      "community": 9,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "id": "personal_portfolio_package_devdependencies_types_react_dom",
+      "community": 9,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "id": "personal_portfolio_package_devdependencies_vitejs_plugin_react",
+      "community": 9,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "id": "personal_portfolio_package_devdependencies_eslint",
+      "community": 9,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "id": "personal_portfolio_package_devdependencies_eslint_plugin_react_hooks",
+      "community": 9,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "id": "personal_portfolio_package_devdependencies_eslint_plugin_react_refresh",
+      "community": 9,
+      "norm_label": "eslint-plugin-react-refresh"
+    },
+    {
+      "label": "gh-pages",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L52",
+      "id": "personal_portfolio_package_devdependencies_gh_pages",
+      "community": 9,
+      "norm_label": "gh-pages"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "id": "personal_portfolio_package_devdependencies_globals",
+      "community": 9,
+      "norm_label": "globals"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "id": "personal_portfolio_package_devdependencies_vite",
+      "community": 9,
+      "norm_label": "vite"
+    },
+    {
+      "label": "playwright.config.js",
+      "file_type": "code",
+      "source_file": "playwright.config.js",
+      "source_location": "L1",
+      "id": "playwright_config_js",
+      "community": 16,
+      "norm_label": "playwright.config.js"
+    },
+    {
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "postcss.config.js",
+      "source_location": "L1",
+      "id": "postcss_config_js",
+      "community": 17,
+      "norm_label": "postcss.config.js"
+    },
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "tailwind.config.js",
+      "source_location": "L1",
+      "id": "tailwind_config_js",
+      "community": 18,
+      "norm_label": "tailwind.config.js"
+    },
+    {
+      "label": "vercel.json",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L1",
+      "id": "vercel_json",
+      "community": 13,
+      "norm_label": "vercel.json"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L2",
+      "id": "personal_portfolio_vercel_version",
+      "community": 13,
+      "norm_label": "version"
+    },
+    {
+      "label": "builds",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L3",
+      "id": "personal_portfolio_vercel_builds",
+      "community": 13,
+      "norm_label": "builds"
+    },
+    {
+      "label": "routes",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L14",
+      "id": "personal_portfolio_vercel_routes",
+      "community": 13,
+      "norm_label": "routes"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L1",
+      "id": "vite_config_js",
+      "community": 19,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L1",
+      "id": "server_package_json",
+      "community": 5,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L2",
+      "id": "server_package_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L3",
+      "id": "server_package_version",
+      "community": 5,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L4",
+      "id": "server_package_type",
+      "community": 5,
+      "norm_label": "type"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L5",
+      "id": "server_package_main",
+      "community": 5,
+      "norm_label": "main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L6",
+      "id": "server_package_scripts",
+      "community": 5,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L7",
+      "id": "server_package_scripts_start",
+      "community": 5,
+      "norm_label": "start"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L8",
+      "id": "server_package_scripts_dev",
+      "community": 5,
+      "norm_label": "dev"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L10",
+      "id": "server_package_dependencies",
+      "community": 5,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "bcryptjs",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L11",
+      "id": "server_package_dependencies_bcryptjs",
+      "community": 5,
+      "norm_label": "bcryptjs"
+    },
+    {
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L12",
+      "id": "server_package_dependencies_cors",
+      "community": 5,
+      "norm_label": "cors"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L13",
+      "id": "server_package_dependencies_dotenv",
+      "community": 5,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L14",
+      "id": "server_package_dependencies_express",
+      "community": 5,
+      "norm_label": "express"
+    },
+    {
+      "label": "express-rate-limit",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L15",
+      "id": "server_package_dependencies_express_rate_limit",
+      "community": 5,
+      "norm_label": "express-rate-limit"
+    },
+    {
+      "label": "express-validator",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L16",
+      "id": "server_package_dependencies_express_validator",
+      "community": 5,
+      "norm_label": "express-validator"
+    },
+    {
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L17",
+      "id": "server_package_dependencies_helmet",
+      "community": 5,
+      "norm_label": "helmet"
+    },
+    {
+      "label": "jsonwebtoken",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L18",
+      "id": "server_package_dependencies_jsonwebtoken",
+      "community": 5,
+      "norm_label": "jsonwebtoken"
+    },
+    {
+      "label": "mongoose",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L19",
+      "id": "server_package_dependencies_mongoose",
+      "community": 5,
+      "norm_label": "mongoose"
+    },
+    {
+      "label": "nodemailer",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L20",
+      "id": "server_package_dependencies_nodemailer",
+      "community": 5,
+      "norm_label": "nodemailer"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L22",
+      "id": "server_package_devdependencies",
+      "community": 5,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "nodemon",
+      "file_type": "code",
+      "source_file": "server/package.json",
+      "source_location": "L23",
+      "id": "server_package_devdependencies_nodemon",
+      "community": 5,
+      "norm_label": "nodemon"
+    },
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L1",
+      "id": "server_server_js",
+      "community": 0,
+      "norm_label": "server.js"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L21",
+      "id": "server_server_app",
+      "community": 0,
+      "norm_label": "app"
+    },
+    {
+      "label": "apiLimiter",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L54",
+      "id": "server_server_apilimiter",
+      "community": 0,
+      "norm_label": "apilimiter"
+    },
+    {
+      "label": "loginLimiter",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L63",
+      "id": "server_server_loginlimiter",
+      "community": 0,
+      "norm_label": "loginlimiter"
+    },
+    {
+      "label": "contactLimiter",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L70",
+      "id": "server_server_contactlimiter",
+      "community": 0,
+      "norm_label": "contactlimiter"
+    },
+    {
+      "label": "otpStorage",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L77",
+      "id": "server_server_otpstorage",
+      "community": 0,
+      "norm_label": "otpstorage"
+    },
+    {
+      "label": "seedDatabase()",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L95",
+      "id": "server_server_seeddatabase",
+      "community": 0,
+      "norm_label": "seeddatabase()"
+    },
+    {
+      "label": "authenticateAdmin()",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L211",
+      "id": "server_server_authenticateadmin",
+      "community": 0,
+      "norm_label": "authenticateadmin()"
+    },
+    {
+      "label": "tempId",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L266",
+      "id": "server_server_tempid",
+      "community": 0,
+      "norm_label": "tempid"
+    },
+    {
+      "label": "transporter",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L286",
+      "id": "server_server_transporter",
+      "community": 0,
+      "norm_label": "transporter"
+    },
+    {
+      "label": "mailOptions",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L294",
+      "id": "server_server_mailoptions",
+      "community": 0,
+      "norm_label": "mailoptions"
+    },
+    {
+      "label": "record",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L337",
+      "id": "server_server_record",
+      "community": 0,
+      "norm_label": "record"
+    },
+    {
+      "label": "token",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L354",
+      "id": "server_server_token",
+      "community": 0,
+      "norm_label": "token"
+    },
+    {
+      "label": "newProject",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L405",
+      "id": "server_server_newproject",
+      "community": 0,
+      "norm_label": "newproject"
+    },
+    {
+      "label": "skillData",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L481",
+      "id": "server_server_skilldata",
+      "community": 0,
+      "norm_label": "skilldata"
+    },
+    {
+      "label": "newSkill",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L485",
+      "id": "server_server_newskill",
+      "community": 0,
+      "norm_label": "newskill"
+    },
+    {
+      "label": "escapeHTML()",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L544",
+      "id": "server_server_escapehtml",
+      "community": 0,
+      "norm_label": "escapehtml()"
+    },
+    {
+      "label": "errors",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L564",
+      "id": "server_server_errors",
+      "community": 0,
+      "norm_label": "errors"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L580",
+      "id": "server_server_name",
+      "community": 0,
+      "norm_label": "name"
+    },
+    {
+      "label": "email",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L581",
+      "id": "server_server_email",
+      "community": 0,
+      "norm_label": "email"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L582",
+      "id": "server_server_type",
+      "community": 0,
+      "norm_label": "type"
+    },
+    {
+      "label": "company",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L583",
+      "id": "server_server_company",
+      "community": 0,
+      "norm_label": "company"
+    },
+    {
+      "label": "subject",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L584",
+      "id": "server_server_subject",
+      "community": 0,
+      "norm_label": "subject"
+    },
+    {
+      "label": "budget",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L585",
+      "id": "server_server_budget",
+      "community": 0,
+      "norm_label": "budget"
+    },
+    {
+      "label": "deadline",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L586",
+      "id": "server_server_deadline",
+      "community": 0,
+      "norm_label": "deadline"
+    },
+    {
+      "label": "message",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L587",
+      "id": "server_server_message",
+      "community": 0,
+      "norm_label": "message"
+    },
+    {
+      "label": "newMessage",
+      "file_type": "code",
+      "source_file": "server/server.js",
+      "source_location": "L591",
+      "id": "server_server_newmessage",
+      "community": 0,
+      "norm_label": "newmessage"
+    },
+    {
+      "label": "Admin.js",
+      "file_type": "code",
+      "source_file": "server/models/Admin.js",
+      "source_location": "L1",
+      "id": "server_models_admin_js",
+      "community": 0,
+      "norm_label": "admin.js"
+    },
+    {
+      "label": "adminSchema",
+      "file_type": "code",
+      "source_file": "server/models/Admin.js",
+      "source_location": "L3",
+      "id": "models_admin_adminschema",
+      "community": 0,
+      "norm_label": "adminschema"
+    },
+    {
+      "label": "Admin",
+      "file_type": "code",
+      "source_file": "server/models/Admin.js",
+      "source_location": "L20",
+      "id": "models_admin_admin",
+      "community": 0,
+      "norm_label": "admin"
+    },
+    {
+      "label": "Message.js",
+      "file_type": "code",
+      "source_file": "server/models/Message.js",
+      "source_location": "L1",
+      "id": "server_models_message_js",
+      "community": 0,
+      "norm_label": "message.js"
+    },
+    {
+      "label": "messageSchema",
+      "file_type": "code",
+      "source_file": "server/models/Message.js",
+      "source_location": "L3",
+      "id": "models_message_messageschema",
+      "community": 0,
+      "norm_label": "messageschema"
+    },
+    {
+      "label": "Message",
+      "file_type": "code",
+      "source_file": "server/models/Message.js",
+      "source_location": "L53",
+      "id": "models_message_message",
+      "community": 0,
+      "norm_label": "message"
+    },
+    {
+      "label": "Profile.js",
+      "file_type": "code",
+      "source_file": "server/models/Profile.js",
+      "source_location": "L1",
+      "id": "server_models_profile_js",
+      "community": 0,
+      "norm_label": "profile.js"
+    },
+    {
+      "label": "profileSchema",
+      "file_type": "code",
+      "source_file": "server/models/Profile.js",
+      "source_location": "L3",
+      "id": "models_profile_profileschema",
+      "community": 0,
+      "norm_label": "profileschema"
+    },
+    {
+      "label": "Profile",
+      "file_type": "code",
+      "source_file": "server/models/Profile.js",
+      "source_location": "L64",
+      "id": "models_profile_profile",
+      "community": 0,
+      "norm_label": "profile"
+    },
+    {
+      "label": "Project.js",
+      "file_type": "code",
+      "source_file": "server/models/Project.js",
+      "source_location": "L1",
+      "id": "server_models_project_js",
+      "community": 0,
+      "norm_label": "project.js"
+    },
+    {
+      "label": "projectSchema",
+      "file_type": "code",
+      "source_file": "server/models/Project.js",
+      "source_location": "L3",
+      "id": "models_project_projectschema",
+      "community": 0,
+      "norm_label": "projectschema"
+    },
+    {
+      "label": "Project",
+      "file_type": "code",
+      "source_file": "server/models/Project.js",
+      "source_location": "L56",
+      "id": "models_project_project",
+      "community": 0,
+      "norm_label": "project"
+    },
+    {
+      "label": "Skill.js",
+      "file_type": "code",
+      "source_file": "server/models/Skill.js",
+      "source_location": "L1",
+      "id": "server_models_skill_js",
+      "community": 0,
+      "norm_label": "skill.js"
+    },
+    {
+      "label": "skillSchema",
+      "file_type": "code",
+      "source_file": "server/models/Skill.js",
+      "source_location": "L3",
+      "id": "models_skill_skillschema",
+      "community": 0,
+      "norm_label": "skillschema"
+    },
+    {
+      "label": "Skill",
+      "file_type": "code",
+      "source_file": "server/models/Skill.js",
+      "source_location": "L34",
+      "id": "models_skill_skill",
+      "community": 0,
+      "norm_label": "skill"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "id": "src_app_jsx",
+      "community": 2,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "PortfolioView()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L22",
+      "id": "src_app_portfolioview",
+      "community": 2,
+      "norm_label": "portfolioview()"
+    },
+    {
+      "label": "fallbackSkills",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L40",
+      "id": "src_app_fallbackskills",
+      "community": 2,
+      "norm_label": "fallbackskills"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L71",
+      "id": "src_app_app",
+      "community": 2,
+      "norm_label": "app()"
+    },
+    {
+      "label": "config.js",
+      "file_type": "code",
+      "source_file": "src/config.js",
+      "source_location": "L1",
+      "id": "src_config_js",
+      "community": 2,
+      "norm_label": "config.js"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "id": "src_main_jsx",
+      "community": 2,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "Background.jsx",
+      "file_type": "code",
+      "source_file": "src/canvas/Background.jsx",
+      "source_location": "L1",
+      "id": "src_canvas_background_jsx",
+      "community": 2,
+      "norm_label": "background.jsx"
+    },
+    {
+      "label": "Galaxy()",
+      "file_type": "code",
+      "source_file": "src/canvas/Background.jsx",
+      "source_location": "L6",
+      "id": "canvas_background_galaxy",
+      "community": 2,
+      "norm_label": "galaxy()"
+    },
+    {
+      "label": "Background()",
+      "file_type": "code",
+      "source_file": "src/canvas/Background.jsx",
+      "source_location": "L93",
+      "id": "canvas_background_background",
+      "community": 2,
+      "norm_label": "background()"
+    },
+    {
+      "label": "About.jsx",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L1",
+      "id": "src_components_about_jsx",
+      "community": 2,
+      "norm_label": "about.jsx"
+    },
+    {
+      "label": "CountUp()",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L6",
+      "id": "components_about_countup",
+      "community": 2,
+      "norm_label": "countup()"
+    },
+    {
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L63",
+      "id": "components_about_about",
+      "community": 2,
+      "norm_label": "about()"
+    },
+    {
+      "label": "AdminDashboard.jsx",
+      "file_type": "code",
+      "source_file": "src/components/AdminDashboard.jsx",
+      "source_location": "L1",
+      "id": "src_components_admindashboard_jsx",
+      "community": 2,
+      "norm_label": "admindashboard.jsx"
+    },
+    {
+      "label": "getIconComponent()",
+      "file_type": "code",
+      "source_file": "src/components/AdminDashboard.jsx",
+      "source_location": "L14",
+      "id": "components_admindashboard_geticoncomponent",
+      "community": 2,
+      "norm_label": "geticoncomponent()"
+    },
+    {
+      "label": "AdminDashboard()",
+      "file_type": "code",
+      "source_file": "src/components/AdminDashboard.jsx",
+      "source_location": "L28",
+      "id": "components_admindashboard_admindashboard",
+      "community": 2,
+      "norm_label": "admindashboard()"
+    },
+    {
+      "label": "Contact.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Contact.jsx",
+      "source_location": "L1",
+      "id": "src_components_contact_jsx",
+      "community": 2,
+      "norm_label": "contact.jsx"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/components/Contact.jsx",
+      "source_location": "L6",
+      "id": "components_contact_contact",
+      "community": 2,
+      "norm_label": "contact()"
+    },
+    {
+      "label": "Experience.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Experience.jsx",
+      "source_location": "L1",
+      "id": "src_components_experience_jsx",
+      "community": 2,
+      "norm_label": "experience.jsx"
+    },
+    {
+      "label": "Experience()",
+      "file_type": "code",
+      "source_file": "src/components/Experience.jsx",
+      "source_location": "L5",
+      "id": "components_experience_experience",
+      "community": 2,
+      "norm_label": "experience()"
+    },
+    {
+      "label": "Hero.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "id": "src_components_hero_jsx",
+      "community": 2,
+      "norm_label": "hero.jsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L8",
+      "id": "components_hero_hero",
+      "community": 2,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "Login.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Login.jsx",
+      "source_location": "L1",
+      "id": "src_components_login_jsx",
+      "community": 2,
+      "norm_label": "login.jsx"
+    },
+    {
+      "label": "Login()",
+      "file_type": "code",
+      "source_file": "src/components/Login.jsx",
+      "source_location": "L7",
+      "id": "components_login_login",
+      "community": 2,
+      "norm_label": "login()"
+    },
+    {
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L1",
+      "id": "src_components_navbar_jsx",
+      "community": 11,
+      "norm_label": "navbar.jsx"
+    },
+    {
+      "label": "navLinks",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L5",
+      "id": "components_navbar_navlinks",
+      "community": 11,
+      "norm_label": "navlinks"
+    },
+    {
+      "label": "scrollToSection()",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L14",
+      "id": "components_navbar_scrolltosection",
+      "community": 11,
+      "norm_label": "scrolltosection()"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L21",
+      "id": "components_navbar_navbar",
+      "community": 11,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "ProjectDetailsModal.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ProjectDetailsModal.jsx",
+      "source_location": "L1",
+      "id": "src_components_projectdetailsmodal_jsx",
+      "community": 2,
+      "norm_label": "projectdetailsmodal.jsx"
+    },
+    {
+      "label": "ProjectDetailsModal()",
+      "file_type": "code",
+      "source_file": "src/components/ProjectDetailsModal.jsx",
+      "source_location": "L5",
+      "id": "components_projectdetailsmodal_projectdetailsmodal",
+      "community": 2,
+      "norm_label": "projectdetailsmodal()"
+    },
+    {
+      "label": "Projects.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L1",
+      "id": "src_components_projects_jsx",
+      "community": 2,
+      "norm_label": "projects.jsx"
+    },
+    {
+      "label": "ProjectCard()",
+      "file_type": "code",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L8",
+      "id": "components_projects_projectcard",
+      "community": 2,
+      "norm_label": "projectcard()"
+    },
+    {
+      "label": "Projects()",
+      "file_type": "code",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L140",
+      "id": "components_projects_projects",
+      "community": 2,
+      "norm_label": "projects()"
+    },
+    {
+      "label": "Skills.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L1",
+      "id": "src_components_skills_jsx",
+      "community": 10,
+      "norm_label": "skills.jsx"
+    },
+    {
+      "label": "getIconComponent()",
+      "file_type": "code",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L16",
+      "id": "components_skills_geticoncomponent",
+      "community": 10,
+      "norm_label": "geticoncomponent()"
+    },
+    {
+      "label": "getCategoryColor()",
+      "file_type": "code",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L27",
+      "id": "components_skills_getcategorycolor",
+      "community": 10,
+      "norm_label": "getcategorycolor()"
+    },
+    {
+      "label": "isAiCat()",
+      "file_type": "code",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L37",
+      "id": "components_skills_isaicat",
+      "community": 10,
+      "norm_label": "isaicat()"
+    },
+    {
+      "label": "HexCard()",
+      "file_type": "code",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L44",
+      "id": "components_skills_hexcard",
+      "community": 10,
+      "norm_label": "hexcard()"
+    },
+    {
+      "label": "CategoryGroup()",
+      "file_type": "code",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L222",
+      "id": "components_skills_categorygroup",
+      "community": 10,
+      "norm_label": "categorygroup()"
+    },
+    {
+      "label": "Skills()",
+      "file_type": "code",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L293",
+      "id": "components_skills_skills",
+      "community": 10,
+      "norm_label": "skills()"
+    },
+    {
+      "label": "SocialSidebar.jsx",
+      "file_type": "code",
+      "source_file": "src/components/SocialSidebar.jsx",
+      "source_location": "L1",
+      "id": "src_components_socialsidebar_jsx",
+      "community": 2,
+      "norm_label": "socialsidebar.jsx"
+    },
+    {
+      "label": "SocialSidebar()",
+      "file_type": "code",
+      "source_file": "src/components/SocialSidebar.jsx",
+      "source_location": "L5",
+      "id": "components_socialsidebar_socialsidebar",
+      "community": 2,
+      "norm_label": "socialsidebar()"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "src/data/index.js",
+      "source_location": "L1",
+      "id": "src_data_index_js",
+      "community": 2,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "resumeData",
+      "file_type": "code",
+      "source_file": "src/data/index.js",
+      "source_location": "L27",
+      "id": "data_index_resumedata",
+      "community": 2,
+      "norm_label": "resumedata"
+    },
+    {
+      "label": ".last-run.json",
+      "file_type": "code",
+      "source_file": "test-results/.last-run.json",
+      "source_location": "L1",
+      "id": "test_results_last_run_json",
+      "community": 14,
+      "norm_label": ".last-run.json"
+    },
+    {
+      "label": "status",
+      "file_type": "code",
+      "source_file": "test-results/.last-run.json",
+      "source_location": "L2",
+      "id": "test_results_last_run_status",
+      "community": 14,
+      "norm_label": "status"
+    },
+    {
+      "label": "failedTests",
+      "file_type": "code",
+      "source_file": "test-results/.last-run.json",
+      "source_location": "L3",
+      "id": "test_results_last_run_failedtests",
+      "community": 14,
+      "norm_label": "failedtests"
+    },
+    {
+      "label": "portfolio.spec.js",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L1",
+      "id": "tests_portfolio_spec_js",
+      "community": 6,
+      "norm_label": "portfolio.spec.js"
+    },
+    {
+      "label": "nameHeader",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L13",
+      "id": "tests_portfolio_spec_nameheader",
+      "community": 6,
+      "norm_label": "nameheader"
+    },
+    {
+      "label": "aboutLink",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L17",
+      "id": "tests_portfolio_spec_aboutlink",
+      "community": 6,
+      "norm_label": "aboutlink"
+    },
+    {
+      "label": "skillsLink",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L19",
+      "id": "tests_portfolio_spec_skillslink",
+      "community": 6,
+      "norm_label": "skillslink"
+    },
+    {
+      "label": "projectSection",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L27",
+      "id": "tests_portfolio_spec_projectsection",
+      "community": 6,
+      "norm_label": "projectsection"
+    },
+    {
+      "label": "projectCards",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L31",
+      "id": "tests_portfolio_spec_projectcards",
+      "community": 6,
+      "norm_label": "projectcards"
+    },
+    {
+      "label": "firstProjectCard",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L42",
+      "id": "tests_portfolio_spec_firstprojectcard",
+      "community": 6,
+      "norm_label": "firstprojectcard"
+    },
+    {
+      "label": "modal",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L49",
+      "id": "tests_portfolio_spec_modal",
+      "community": 6,
+      "norm_label": "modal"
+    },
+    {
+      "label": "closeBtn",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L53",
+      "id": "tests_portfolio_spec_closebtn",
+      "community": 6,
+      "norm_label": "closebtn"
+    },
+    {
+      "label": "submitBtn",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L67",
+      "id": "tests_portfolio_spec_submitbtn",
+      "community": 6,
+      "norm_label": "submitbtn"
+    },
+    {
+      "label": "loginHeader",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L80",
+      "id": "tests_portfolio_spec_loginheader",
+      "community": 6,
+      "norm_label": "loginheader"
+    },
+    {
+      "label": "otpInput",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L91",
+      "id": "tests_portfolio_spec_otpinput",
+      "community": 6,
+      "norm_label": "otpinput"
+    },
+    {
+      "label": "dashboardHeader",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L104",
+      "id": "tests_portfolio_spec_dashboardheader",
+      "community": 6,
+      "norm_label": "dashboardheader"
+    },
+    {
+      "label": "projectsTab",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L108",
+      "id": "tests_portfolio_spec_projectstab",
+      "community": 6,
+      "norm_label": "projectstab"
+    },
+    {
+      "label": "messagesTab",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L109",
+      "id": "tests_portfolio_spec_messagestab",
+      "community": 6,
+      "norm_label": "messagestab"
+    },
+    {
+      "label": "testMessageContent",
+      "file_type": "code",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L119",
+      "id": "tests_portfolio_spec_testmessagecontent",
+      "community": 6,
+      "norm_label": "testmessagecontent"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 12,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "React + Vite",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "personal_portfolio_readme_react_vite",
+      "community": 12,
+      "norm_label": "react + vite"
+    },
+    {
+      "label": "React Compiler",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "id": "personal_portfolio_readme_react_compiler",
+      "community": 12,
+      "norm_label": "react compiler"
+    },
+    {
+      "label": "Expanding the ESLint configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "id": "personal_portfolio_readme_expanding_the_eslint_configuration",
+      "community": 12,
+      "norm_label": "expanding the eslint configuration"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1",
+      "id": "agents_skills_graphify_skill_md",
+      "community": 1,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "/graphify",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "id": "graphify_skill_graphify",
+      "community": 1,
+      "norm_label": "/graphify"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "id": "graphify_skill_usage",
+      "community": 1,
+      "norm_label": "usage"
+    },
+    {
+      "label": "code:block1 (/graphify                                             # full)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L13",
+      "id": "graphify_skill_codeblock_1",
+      "community": 1,
+      "norm_label": "code:block1 (/graphify                                             # full)"
+    },
+    {
+      "label": "What graphify is for",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L40",
+      "id": "graphify_skill_what_graphify_is_for",
+      "community": 1,
+      "norm_label": "what graphify is for"
+    },
+    {
+      "label": "What You Must Do When Invoked",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L55",
+      "id": "graphify_skill_what_you_must_do_when_invoked",
+      "community": 3,
+      "norm_label": "what you must do when invoked"
+    },
+    {
+      "label": "Step 1 - Ensure graphify is installed",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L63",
+      "id": "graphify_skill_step_1_ensure_graphify_is_installed",
+      "community": 3,
+      "norm_label": "step 1 - ensure graphify is installed"
+    },
+    {
+      "label": "code:powershell (# Detect Python with graphify \u2014 uv/pipx-aware (fixes #831))",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L65",
+      "id": "graphify_skill_codeblock_2",
+      "community": 3,
+      "norm_label": "code:powershell (# detect python with graphify \u2014 uv/pipx-aware (fixes #831))"
+    },
+    {
+      "label": "Step 2 - Detect files",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L123",
+      "id": "graphify_skill_step_2_detect_files",
+      "community": 3,
+      "norm_label": "step 2 - detect files"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L125",
+      "id": "graphify_skill_codeblock_3",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:block4 (Corpus: X files \u00b7 ~Y words)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L139",
+      "id": "graphify_skill_codeblock_4",
+      "community": 3,
+      "norm_label": "code:block4 (corpus: x files \u00b7 ~y words)"
+    },
+    {
+      "label": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L156",
+      "id": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "community": 3,
+      "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L177",
+      "id": "graphify_skill_codeblock_5",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 3 - Extract entities and relationships",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L202",
+      "id": "graphify_skill_step_3_extract_entities_and_relationships",
+      "community": 8,
+      "norm_label": "step 3 - extract entities and relationships"
+    },
+    {
+      "label": "Part A - Structural extraction for code files",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L212",
+      "id": "graphify_skill_part_a_structural_extraction_for_code_files",
+      "community": 8,
+      "norm_label": "part a - structural extraction for code files"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L216",
+      "id": "graphify_skill_codeblock_6",
+      "community": 8,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Part B - Semantic extraction (parallel subagents)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L250",
+      "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "community": 8,
+      "norm_label": "part b - semantic extraction (parallel subagents)"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L266",
+      "id": "graphify_skill_codeblock_7",
+      "community": 8,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:block8 ([Agent tool call 1: files 1-15])",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L297",
+      "id": "graphify_skill_codeblock_8",
+      "community": 8,
+      "norm_label": "code:block8 ([agent tool call 1: files 1-15])"
+    },
+    {
+      "label": "code:block9 (You are a graphify extraction subagent. Read the files liste)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L306",
+      "id": "graphify_skill_codeblock_9",
+      "community": 8,
+      "norm_label": "code:block9 (you are a graphify extraction subagent. read the files liste)"
+    },
+    {
+      "label": "code:powershell (& (Get-Content graphify-out\\.graphify_python) -c \")",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L377",
+      "id": "graphify_skill_codeblock_10",
+      "community": 8,
+      "norm_label": "code:powershell (& (get-content graphify-out\\.graphify_python) -c \")"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L401",
+      "id": "graphify_skill_codeblock_11",
+      "community": 8,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L416",
+      "id": "graphify_skill_codeblock_12",
+      "community": 8,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Part C - Merge AST + semantic into final extraction",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L449",
+      "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "community": 8,
+      "norm_label": "part c - merge ast + semantic into final extraction"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L451",
+      "id": "graphify_skill_codeblock_13",
+      "community": 8,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 4 - Build graph, cluster, analyze, generate outputs",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L485",
+      "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "community": 3,
+      "norm_label": "step 4 - build graph, cluster, analyze, generate outputs"
+    },
+    {
+      "label": "code:powershell (New-Item -ItemType Directory -Force -Path graphify-out | Out)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L487",
+      "id": "graphify_skill_codeblock_14",
+      "community": 3,
+      "norm_label": "code:powershell (new-item -itemtype directory -force -path graphify-out | out)"
+    },
+    {
+      "label": "Step 5 - Label communities",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L537",
+      "id": "graphify_skill_step_5_label_communities",
+      "community": 3,
+      "norm_label": "step 5 - label communities"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L543",
+      "id": "graphify_skill_codeblock_15",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L579",
+      "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "community": 3,
+      "norm_label": "step 6 - generate obsidian vault (opt-in) + html"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L587",
+      "id": "graphify_skill_codeblock_16",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L622",
+      "id": "graphify_skill_codeblock_17",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L647",
+      "id": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "community": 3,
+      "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L651",
+      "id": "graphify_skill_codeblock_18",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L668",
+      "id": "graphify_skill_codeblock_19",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 7b - SVG export (only if --svg flag)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L690",
+      "id": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
+      "community": 3,
+      "norm_label": "step 7b - svg export (only if --svg flag)"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L692",
+      "id": "graphify_skill_codeblock_20",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 7c - GraphML export (only if --graphml flag)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L714",
+      "id": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
+      "community": 3,
+      "norm_label": "step 7c - graphml export (only if --graphml flag)"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L716",
+      "id": "graphify_skill_codeblock_21",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 7d - MCP server (only if --mcp flag)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L736",
+      "id": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "community": 3,
+      "norm_label": "step 7d - mcp server (only if --mcp flag)"
+    },
+    {
+      "label": "code:powershell (& (Get-Content graphify-out\\.graphify_python) -m graphify.se)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L738",
+      "id": "graphify_skill_codeblock_22",
+      "community": 3,
+      "norm_label": "code:powershell (& (get-content graphify-out\\.graphify_python) -m graphify.se)"
+    },
+    {
+      "label": "code:json ({)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L745",
+      "id": "graphify_skill_codeblock_23",
+      "community": 3,
+      "norm_label": "code:json ({)"
+    },
+    {
+      "label": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L756",
+      "id": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "community": 3,
+      "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L760",
+      "id": "graphify_skill_codeblock_24",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L778",
+      "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "community": 3,
+      "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L780",
+      "id": "graphify_skill_codeblock_25",
+      "community": 3,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:block26 (Graph complete. Outputs in PATH_TO_DIR/graphify-out/)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L822",
+      "id": "graphify_skill_codeblock_26",
+      "community": 3,
+      "norm_label": "code:block26 (graph complete. outputs in path_to_dir/graphify-out/)"
+    },
+    {
+      "label": "For --update (incremental re-extraction)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L852",
+      "id": "graphify_skill_for_update_incremental_re_extraction",
+      "community": 1,
+      "norm_label": "for --update (incremental re-extraction)"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L856",
+      "id": "graphify_skill_codeblock_27",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L877",
+      "id": "graphify_skill_codeblock_28",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L899",
+      "id": "graphify_skill_codeblock_29",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L947",
+      "id": "graphify_skill_codeblock_30",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "For --cluster-only",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L979",
+      "id": "graphify_skill_for_cluster_only",
+      "community": 1,
+      "norm_label": "for --cluster-only"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L983",
+      "id": "graphify_skill_codeblock_31",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "For /graphify query",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1028",
+      "id": "graphify_skill_for_graphify_query",
+      "community": 1,
+      "norm_label": "for /graphify query"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1038",
+      "id": "graphify_skill_codeblock_32",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1058",
+      "id": "graphify_skill_codeblock_33",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (& (Get-Content graphify-out\\.graphify_python) -m graphify sa)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1151",
+      "id": "graphify_skill_codeblock_34",
+      "community": 1,
+      "norm_label": "code:powershell (& (get-content graphify-out\\.graphify_python) -m graphify sa)"
+    },
+    {
+      "label": "For /graphify path",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1159",
+      "id": "graphify_skill_for_graphify_path",
+      "community": 1,
+      "norm_label": "for /graphify path"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1164",
+      "id": "graphify_skill_codeblock_35",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1176",
+      "id": "graphify_skill_codeblock_36",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (& (Get-Content graphify-out\\.graphify_python) -m graphify sa)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1230",
+      "id": "graphify_skill_codeblock_37",
+      "community": 1,
+      "norm_label": "code:powershell (& (get-content graphify-out\\.graphify_python) -m graphify sa)"
+    },
+    {
+      "label": "For /graphify explain",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1236",
+      "id": "graphify_skill_for_graphify_explain",
+      "community": 1,
+      "norm_label": "for /graphify explain"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1241",
+      "id": "graphify_skill_codeblock_38",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1253",
+      "id": "graphify_skill_codeblock_39",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "code:powershell (& (Get-Content graphify-out\\.graphify_python) -m graphify sa)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1300",
+      "id": "graphify_skill_codeblock_40",
+      "community": 1,
+      "norm_label": "code:powershell (& (get-content graphify-out\\.graphify_python) -m graphify sa)"
+    },
+    {
+      "label": "For /graphify add",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1306",
+      "id": "graphify_skill_for_graphify_add",
+      "community": 1,
+      "norm_label": "for /graphify add"
+    },
+    {
+      "label": "code:powershell (@')",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1310",
+      "id": "graphify_skill_codeblock_41",
+      "community": 1,
+      "norm_label": "code:powershell (@')"
+    },
+    {
+      "label": "For --watch",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1341",
+      "id": "graphify_skill_for_watch",
+      "community": 1,
+      "norm_label": "for --watch"
+    },
+    {
+      "label": "code:powershell (& (Get-Content graphify-out\\.graphify_python) -m graphify.wa)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1345",
+      "id": "graphify_skill_codeblock_42",
+      "community": 1,
+      "norm_label": "code:powershell (& (get-content graphify-out\\.graphify_python) -m graphify.wa)"
+    },
+    {
+      "label": "For git commit hook",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1362",
+      "id": "graphify_skill_for_git_commit_hook",
+      "community": 1,
+      "norm_label": "for git commit hook"
+    },
+    {
+      "label": "code:bash (graphify hook install    # install)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1366",
+      "id": "graphify_skill_codeblock_43",
+      "community": 1,
+      "norm_label": "code:bash (graphify hook install    # install)"
+    },
+    {
+      "label": "For native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1378",
+      "id": "graphify_skill_for_native_claude_md_integration",
+      "community": 1,
+      "norm_label": "for native claude.md integration"
+    },
+    {
+      "label": "code:bash (graphify claude install)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1382",
+      "id": "graphify_skill_codeblock_44",
+      "community": 1,
+      "norm_label": "code:bash (graphify claude install)"
+    },
+    {
+      "label": "code:bash (graphify claude uninstall  # remove the section)",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1388",
+      "id": "graphify_skill_codeblock_45",
+      "community": 1,
+      "norm_label": "code:bash (graphify claude uninstall  # remove the section)"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1394",
+      "id": "graphify_skill_troubleshooting",
+      "community": 1,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "PowerShell 5.1: Vertical scrolling stops working",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1396",
+      "id": "graphify_skill_powershell_5_1_vertical_scrolling_stops_working",
+      "community": 1,
+      "norm_label": "powershell 5.1: vertical scrolling stops working"
+    },
+    {
+      "label": "Honesty Rules",
+      "file_type": "document",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1407",
+      "id": "graphify_skill_honesty_rules",
+      "community": 1,
+      "norm_label": "honesty rules"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "personal_portfolio_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_scripts",
+      "target": "personal_portfolio_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_scripts",
+      "target": "personal_portfolio_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_scripts",
+      "target": "personal_portfolio_package_scripts_predeploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_scripts",
+      "target": "personal_portfolio_package_scripts_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_scripts",
+      "target": "personal_portfolio_package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_scripts",
+      "target": "personal_portfolio_package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_scripts",
+      "target": "personal_portfolio_package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_emailjs_browser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_react_three_drei",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_react_three_fiber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_types_three",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_autoprefixer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_bcryptjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_cors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_express_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_express_validator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_framer_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_helmet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_jsonwebtoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_lucide_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_maath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_mongoose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_nodemailer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_postcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_react_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_react_router_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_tailwindcss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_dependencies",
+      "target": "personal_portfolio_package_dependencies_three",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_playwright_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_eslint_plugin_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_eslint_plugin_react_refresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_gh_pages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "personal_portfolio_package_devdependencies",
+      "target": "personal_portfolio_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vercel_json",
+      "target": "personal_portfolio_vercel_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "vercel_json",
+      "target": "personal_portfolio_vercel_builds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "vercel_json",
+      "target": "personal_portfolio_vercel_routes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "server_package_json",
+      "target": "server_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server_package_json",
+      "target": "server_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "server_package_json",
+      "target": "server_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "server_package_json",
+      "target": "server_package_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "server_package_json",
+      "target": "server_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "server_package_json",
+      "target": "server_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "server_package_json",
+      "target": "server_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "server_package_scripts",
+      "target": "server_package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "server_package_scripts",
+      "target": "server_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_bcryptjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_cors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_express_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_express_validator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_helmet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_jsonwebtoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_mongoose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "server_package_dependencies",
+      "target": "server_package_dependencies_nodemailer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "server_package_devdependencies",
+      "target": "server_package_devdependencies_nodemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_models_project_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_models_message_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_models_admin_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_models_profile_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_models_skill_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_apilimiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_loginlimiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_contactlimiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_otpstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_seeddatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_authenticateadmin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_tempid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L605",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_transporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L620",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_mailoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_record",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L354",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L405",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_newproject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L495",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_skilldata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L485",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_newskill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L544",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_escapehtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L564",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L580",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L581",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L582",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L583",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_company",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L584",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_subject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L585",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_budget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L586",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_deadline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L587",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/server.js",
+      "source_location": "L591",
+      "weight": 1.0,
+      "source": "server_server_js",
+      "target": "server_server_newmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Admin.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server_models_admin_js",
+      "target": "models_admin_adminschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Admin.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "server_models_admin_js",
+      "target": "models_admin_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Message.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server_models_message_js",
+      "target": "models_message_messageschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Message.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "server_models_message_js",
+      "target": "models_message_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Profile.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server_models_profile_js",
+      "target": "models_profile_profileschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Profile.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "server_models_profile_js",
+      "target": "models_profile_profile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Project.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server_models_project_js",
+      "target": "models_project_projectschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Project.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "server_models_project_js",
+      "target": "models_project_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Skill.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "server_models_skill_js",
+      "target": "models_skill_skillschema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/models/Skill.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "server_models_skill_js",
+      "target": "models_skill_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_navbar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_hero_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_about_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_skills_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_experience_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_projects_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_contact_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_canvas_background_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_socialsidebar_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_login_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_components_admindashboard_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_data_index_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "data_index_resumedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_config_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_app_portfolioview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_app_fallbackskills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "src_app_jsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_jsx",
+      "target": "src_app_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AdminDashboard.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_components_admindashboard_jsx",
+      "target": "src_config_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_contact_jsx",
+      "target": "src_config_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Login.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_login_jsx",
+      "target": "src_config_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_projects_jsx",
+      "target": "src_config_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/canvas/Background.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_canvas_background_jsx",
+      "target": "canvas_background_galaxy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/canvas/Background.jsx",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "src_canvas_background_jsx",
+      "target": "canvas_background_background",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_about_jsx",
+      "target": "src_data_index_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_about_jsx",
+      "target": "data_index_resumedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_about_jsx",
+      "target": "components_about_countup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_components_about_jsx",
+      "target": "components_about_about",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AdminDashboard.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_components_admindashboard_jsx",
+      "target": "components_admindashboard_geticoncomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AdminDashboard.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_components_admindashboard_jsx",
+      "target": "components_admindashboard_admindashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_contact_jsx",
+      "target": "components_contact_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_experience_jsx",
+      "target": "src_data_index_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_experience_jsx",
+      "target": "data_index_resumedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_experience_jsx",
+      "target": "components_experience_experience",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_hero_jsx",
+      "target": "src_data_index_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_hero_jsx",
+      "target": "data_index_resumedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_hero_jsx",
+      "target": "components_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Login.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_components_login_jsx",
+      "target": "components_login_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_navbar_jsx",
+      "target": "components_navbar_navlinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_components_navbar_jsx",
+      "target": "components_navbar_scrolltosection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_components_navbar_jsx",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ProjectDetailsModal.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_projectdetailsmodal_jsx",
+      "target": "components_projectdetailsmodal_projectdetailsmodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_projects_jsx",
+      "target": "src_components_projectdetailsmodal_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_projects_jsx",
+      "target": "src_data_index_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_projects_jsx",
+      "target": "data_index_resumedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_projects_jsx",
+      "target": "components_projects_projectcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.jsx",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "src_components_projects_jsx",
+      "target": "components_projects_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_components_skills_jsx",
+      "target": "components_skills_geticoncomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_components_skills_jsx",
+      "target": "components_skills_getcategorycolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_components_skills_jsx",
+      "target": "components_skills_isaicat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_components_skills_jsx",
+      "target": "components_skills_hexcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "src_components_skills_jsx",
+      "target": "components_skills_categorygroup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "src_components_skills_jsx",
+      "target": "components_skills_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "components_skills_hexcard",
+      "target": "components_skills_geticoncomponent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.jsx",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "components_skills_categorygroup",
+      "target": "components_skills_getcategorycolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/SocialSidebar.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_socialsidebar_jsx",
+      "target": "components_socialsidebar_socialsidebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data/index.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_data_index_js",
+      "target": "data_index_resumedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test-results/.last-run.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "test_results_last_run_json",
+      "target": "test_results_last_run_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "test-results/.last-run.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "test_results_last_run_json",
+      "target": "test_results_last_run_failedtests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_nameheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_aboutlink",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_skillslink",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_projectsection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_projectcards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_firstprojectcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_modal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_closebtn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_submitbtn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_loginheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_otpinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_dashboardheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_projectstab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_messagestab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/portfolio.spec.js",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "tests_portfolio_spec_js",
+      "target": "tests_portfolio_spec_testmessagecontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "personal_portfolio_readme_react_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "personal_portfolio_readme_react_vite",
+      "target": "personal_portfolio_readme_react_compiler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "personal_portfolio_readme_react_vite",
+      "target": "personal_portfolio_readme_expanding_the_eslint_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "agents_skills_graphify_skill_md",
+      "target": "graphify_skill_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_graphify_is_for",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_you_must_do_when_invoked",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L852",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_update_incremental_re_extraction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L979",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_cluster_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1028",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1159",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1236",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_explain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1306",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1341",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_watch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1362",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_git_commit_hook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1378",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_native_claude_md_integration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1394",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1407",
+      "weight": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_honesty_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "graphify_skill_usage",
+      "target": "graphify_skill_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_detect_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_3_extract_entities_and_relationships",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L485",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L537",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_5_label_communities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L579",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L647",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L690",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L714",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L736",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L756",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L778",
+      "weight": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "graphify_skill_step_1_ensure_graphify_is_installed",
+      "target": "graphify_skill_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "graphify_skill_step_2_detect_files",
+      "target": "graphify_skill_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "graphify_skill_step_2_detect_files",
+      "target": "graphify_skill_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "target": "graphify_skill_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L449",
+      "weight": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L216",
+      "weight": 1.0,
+      "source": "graphify_skill_part_a_structural_extraction_for_code_files",
+      "target": "graphify_skill_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "target": "graphify_skill_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L297",
+      "weight": 1.0,
+      "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "target": "graphify_skill_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L306",
+      "weight": 1.0,
+      "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "target": "graphify_skill_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L377",
+      "weight": 1.0,
+      "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "target": "graphify_skill_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L401",
+      "weight": 1.0,
+      "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "target": "graphify_skill_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L416",
+      "weight": 1.0,
+      "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "target": "graphify_skill_codeblock_12",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L451",
+      "weight": 1.0,
+      "source": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "target": "graphify_skill_codeblock_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L487",
+      "weight": 1.0,
+      "source": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "target": "graphify_skill_codeblock_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L543",
+      "weight": 1.0,
+      "source": "graphify_skill_step_5_label_communities",
+      "target": "graphify_skill_codeblock_15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L587",
+      "weight": 1.0,
+      "source": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "target": "graphify_skill_codeblock_16",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L622",
+      "weight": 1.0,
+      "source": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "target": "graphify_skill_codeblock_17",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L651",
+      "weight": 1.0,
+      "source": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "target": "graphify_skill_codeblock_18",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L668",
+      "weight": 1.0,
+      "source": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "target": "graphify_skill_codeblock_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L692",
+      "weight": 1.0,
+      "source": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
+      "target": "graphify_skill_codeblock_20",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L716",
+      "weight": 1.0,
+      "source": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
+      "target": "graphify_skill_codeblock_21",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L738",
+      "weight": 1.0,
+      "source": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "target": "graphify_skill_codeblock_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L745",
+      "weight": 1.0,
+      "source": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "target": "graphify_skill_codeblock_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L760",
+      "weight": 1.0,
+      "source": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "target": "graphify_skill_codeblock_24",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L780",
+      "weight": 1.0,
+      "source": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "target": "graphify_skill_codeblock_25",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L822",
+      "weight": 1.0,
+      "source": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "target": "graphify_skill_codeblock_26",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L856",
+      "weight": 1.0,
+      "source": "graphify_skill_for_update_incremental_re_extraction",
+      "target": "graphify_skill_codeblock_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L877",
+      "weight": 1.0,
+      "source": "graphify_skill_for_update_incremental_re_extraction",
+      "target": "graphify_skill_codeblock_28",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L899",
+      "weight": 1.0,
+      "source": "graphify_skill_for_update_incremental_re_extraction",
+      "target": "graphify_skill_codeblock_29",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L947",
+      "weight": 1.0,
+      "source": "graphify_skill_for_update_incremental_re_extraction",
+      "target": "graphify_skill_codeblock_30",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L983",
+      "weight": 1.0,
+      "source": "graphify_skill_for_cluster_only",
+      "target": "graphify_skill_codeblock_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1038",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_query",
+      "target": "graphify_skill_codeblock_32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1058",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_query",
+      "target": "graphify_skill_codeblock_33",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1151",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_query",
+      "target": "graphify_skill_codeblock_34",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1164",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_path",
+      "target": "graphify_skill_codeblock_35",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1176",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_path",
+      "target": "graphify_skill_codeblock_36",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1230",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_path",
+      "target": "graphify_skill_codeblock_37",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1241",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_explain",
+      "target": "graphify_skill_codeblock_38",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1253",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_explain",
+      "target": "graphify_skill_codeblock_39",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1300",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_explain",
+      "target": "graphify_skill_codeblock_40",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1310",
+      "weight": 1.0,
+      "source": "graphify_skill_for_graphify_add",
+      "target": "graphify_skill_codeblock_41",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1345",
+      "weight": 1.0,
+      "source": "graphify_skill_for_watch",
+      "target": "graphify_skill_codeblock_42",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1366",
+      "weight": 1.0,
+      "source": "graphify_skill_for_git_commit_hook",
+      "target": "graphify_skill_codeblock_43",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1382",
+      "weight": 1.0,
+      "source": "graphify_skill_for_native_claude_md_integration",
+      "target": "graphify_skill_codeblock_44",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1388",
+      "weight": 1.0,
+      "source": "graphify_skill_for_native_claude_md_integration",
+      "target": "graphify_skill_codeblock_45",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/graphify/SKILL.md",
+      "source_location": "L1396",
+      "weight": 1.0,
+      "source": "graphify_skill_troubleshooting",
+      "target": "graphify_skill_powershell_5_1_vertical_scrolling_stops_working",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "e463015736b9e41609d56b2cb7afc206e437896d"
+}

@@ -58,6 +58,18 @@ const profileSchema = new mongoose.Schema({
         type: String,
         required: true,
         default: "https://www.linkedin.com/in/raxitrangadiya/"
+    },
+    profileImage: {
+        type: String,
+        default: ""
+    },
+    navbarLogo: {
+        type: String,
+        default: "RR"
+    },
+    themePalette: {
+        type: String,
+        default: "cosmic-aurora"
     }
 });
 

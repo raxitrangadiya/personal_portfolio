@@ -4,7 +4,7 @@ import { resumeData } from '../data';
 
 export default function Experience() {
     return (
-        <section id="experience" className="py-20 max-w-5xl mx-auto px-6 relative overflow-hidden">
+        <section id="experience" className="py-24 max-w-6xl mx-auto px-6 relative overflow-hidden">
             <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -33,7 +33,7 @@ export default function Experience() {
                                 <div className="hidden lg:block w-1/2" />
 
                                 {/* Timeline node point */}
-                                <div className="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-bgVoid border-2 border-accentPrimary -translate-x-1/2 mt-6 z-20 shadow-[0_0_10px_#6C63FF]" />
+                                <div className="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-bgVoid border-2 border-accentPrimary -translate-x-1/2 mt-6 z-20 shadow-[0_0_10px_var(--accent-primary)]" />
 
                                 {/* Card Container */}
                                 <motion.div
@@ -44,13 +44,13 @@ export default function Experience() {
                                     className="w-full lg:w-1/2 pl-10 lg:pl-0 lg:px-8 flex"
                                 >
                                     <div 
-                                        className={`glass-panel p-6 rounded-2xl w-full border border-borderGlass shadow-2xl relative transform transition-transform duration-500 hover:scale-[1.01] hover:border-accentPrimary/30`}
+                                        className={`glass-panel p-6 rounded-2xl w-full border border-borderGlass shadow-2xl relative transform transition-transform duration-500 hover:scale-[1.01] hover:border-accentPrimary/35`}
                                         style={{ 
                                             // 3D rotation Y tilting toward center line
                                             transform: `perspective(1000px) rotateY(${isEven ? '-3deg' : '3deg'})`
                                         }}
                                     >
-                                        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-3">
+                                        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-4">
                                             <div>
                                                 <h3 className="text-lg font-bold text-textPrimary font-display">
                                                     {exp.role}
@@ -59,14 +59,35 @@ export default function Experience() {
                                                     @ {exp.company}
                                                 </p>
                                             </div>
-                                            <span className="text-xs font-mono text-textMuted bg-bgSurface px-3 py-1 rounded-full border border-borderGlass/50 self-start sm:self-auto">
+                                            <span className="text-xs font-mono text-textMuted bg-bgSurface px-3 py-1.5 rounded-full border border-borderGlass/50 self-start sm:self-auto select-none">
                                                 {exp.duration}
                                             </span>
                                         </div>
 
-                                        <p className="text-textMuted text-sm leading-relaxed font-sans">
-                                            {exp.description}
-                                        </p>
+                                        {/* Responsibilities list */}
+                                        {exp.responsibilities && (
+                                            <ul className="list-disc list-outside ml-4 space-y-2 text-textMuted text-sm font-sans mb-5">
+                                                {exp.responsibilities.map((bullet, idx) => (
+                                                    <li key={idx} className="leading-relaxed">
+                                                        {bullet}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        )}
+
+                                        {/* Tech pills stack */}
+                                        {exp.technologies && (
+                                            <div className="flex flex-wrap gap-1.5 pt-3.5 border-t border-borderGlass/30">
+                                                {exp.technologies.map((tech) => (
+                                                    <span 
+                                                        key={tech} 
+                                                        className="text-[9px] font-mono font-bold bg-accentPrimary/10 border border-accentPrimary/25 px-2 py-0.5 rounded-md text-accentPrimary select-none"
+                                                    >
+                                                        {tech}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        )}
                                     </div>
                                 </motion.div>
                             </div>

@@ -5,4 +5,4 @@
 const isProduction = typeof window !== 'undefined' && window.location.hostname !== 'localhost';
 
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL 
-  || (isProduction ? '/api' : 'http://localhost:5000/api');
+  || (isProduction ? '/api' : 'http://127.0.0.1:5000/api');

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { THEME_PALETTES } from '../App';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
@@ -58,7 +59,10 @@ export default function AdminDashboard() {
         completedProjects: 0,
         techCount: 0,
         githubUrl: '',
-        linkedinUrl: ''
+        linkedinUrl: '',
+        profileImage: '',
+        navbarLogo: '',
+        themePalette: 'cosmic-aurora'
     });
 
     const [newSkillData, setNewSkillData] = useState({
@@ -85,6 +89,36 @@ export default function AdminDashboard() {
     const [success, setSuccess] = useState('');
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
+
+    const handleImageUpload = (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            if (file.size > 1.5 * 1024 * 1024) {
+                setError('Image size should be less than 1.5MB.');
+                return;
+            }
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                setProfileFormData(prev => ({ ...prev, profileImage: reader.result }));
+            };
+            reader.readAsDataURL(file);
+        }
+    };
+
+    const handleLogoUpload = (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            if (file.size > 500 * 1024) {
+                setError('Logo size should be less than 500KB.');
+                return;
+            }
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                setProfileFormData(prev => ({ ...prev, navbarLogo: reader.result }));
+            };
+            reader.readAsDataURL(file);
+        }
+    };
 
     // Fetch Token
     const getToken = () => localStorage.getItem('adminToken');
@@ -127,7 +161,10 @@ export default function AdminDashboard() {
                     completedProjects: profileData.completedProjects || 0,
                     techCount: profileData.techCount || 0,
                     githubUrl: profileData.githubUrl || '',
-                    linkedinUrl: profileData.linkedinUrl || ''
+                    linkedinUrl: profileData.linkedinUrl || '',
+                    profileImage: profileData.profileImage || '',
+                    navbarLogo: profileData.navbarLogo || '',
+                    themePalette: profileData.themePalette || 'cosmic-aurora'
                 });
             }
 
@@ -926,6 +963,151 @@ export default function AdminDashboard() {
                                             className="w-full bg-[#0a0f1d]/50 border border-white/10 rounded-xl p-3 text-textLight focus:outline-none focus:border-cosmic-cyan focus:ring-1 focus:ring-cosmic-cyan/20 transition-all text-sm font-mono"
                                             placeholder="https://linkedin.com/in/..."
                                         />
+                                    </div>
+                                    {/* Navbar Logo */}
+                                    <div>
+                                        <label className="block text-textLight text-xs font-mono mb-2">Navbar Logo</label>
+                                        <div className="flex flex-col gap-3">
+                                            <input
+                                                type="text"
+                                                value={profileFormData.navbarLogo}
+                                                onChange={(e) => setProfileFormData({ ...profileFormData, navbarLogo: e.target.value })}
+                                                className="w-full bg-[#0a0f1d]/50 border border-white/10 rounded-xl p-3 text-textLight focus:outline-none focus:border-cosmic-cyan focus:ring-1 focus:ring-cosmic-cyan/20 transition-all text-sm font-mono"
+                                                placeholder="e.g. RR, URL or upload below"
+                                            />
+                                            <div className="flex items-center gap-4">
+                                                <input
+                                                    type="file"
+                                                    accept="image/*"
+                                                    onChange={handleLogoUpload}
+                                                    className="hidden"
+                                                    id="navbar-logo-upload"
+                                                />
+                                                <label
+                                                    htmlFor="navbar-logo-upload"
+                                                    className="px-4 py-2 bg-white/5 border border-white/10 hover:bg-white/10 text-textLight rounded-xl text-xs font-mono cursor-pointer transition-all"
+                                                >
+                                                    Choose Local Logo File
+                                                </label>
+                                                {profileFormData.navbarLogo && (
+                                                    <button
+                                                        type="button"
+                                                        onClick={() => setProfileFormData({ ...profileFormData, navbarLogo: '' })}
+                                                        className="text-xs font-mono text-red-400 hover:text-red-300 transition-colors"
+                                                    >
+                                                        Clear Logo
+                                                    </button>
+                                                )}
+                                            </div>
+                                            {profileFormData.navbarLogo && (profileFormData.navbarLogo.startsWith('data:image') || profileFormData.navbarLogo.startsWith('http')) && (
+                                                <div className="mt-2 w-20 h-10 rounded-xl overflow-hidden border border-white/10 bg-black/40 flex items-center justify-center p-1.5">
+                                                    <img 
+                                                        src={profileFormData.navbarLogo} 
+                                                        alt="Logo preview" 
+                                                        className="h-full w-auto object-contain" 
+                                                    />
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+                                    {/* Profile Image */}
+                                    <div>
+                                        <label className="block text-textLight text-xs font-mono mb-2">Profile Image</label>
+                                        <div className="flex flex-col gap-3">
+                                            <input
+                                                type="text"
+                                                value={profileFormData.profileImage}
+                                                onChange={(e) => setProfileFormData({ ...profileFormData, profileImage: e.target.value })}
+                                                className="w-full bg-[#0a0f1d]/50 border border-white/10 rounded-xl p-3 text-textLight focus:outline-none focus:border-cosmic-cyan focus:ring-1 focus:ring-cosmic-cyan/20 transition-all text-sm font-mono"
+                                                placeholder="Paste Image URL or upload below"
+                                            />
+                                            <div className="flex items-center gap-4">
+                                                <input
+                                                    type="file"
+                                                    accept="image/*"
+                                                    onChange={handleImageUpload}
+                                                    className="hidden"
+                                                    id="profile-image-upload"
+                                                />
+                                                <label
+                                                    htmlFor="profile-image-upload"
+                                                    className="px-4 py-2 bg-white/5 border border-white/10 hover:bg-white/10 text-textLight rounded-xl text-xs font-mono cursor-pointer transition-all"
+                                                >
+                                                    Choose Local File
+                                                </label>
+                                                {profileFormData.profileImage && (
+                                                    <button
+                                                        type="button"
+                                                        onClick={() => setProfileFormData({ ...profileFormData, profileImage: '' })}
+                                                        className="text-xs font-mono text-red-400 hover:text-red-300 transition-colors"
+                                                    >
+                                                        Clear Image
+                                                    </button>
+                                                )}
+                                            </div>
+                                            {profileFormData.profileImage && (
+                                                <div className="mt-2 w-20 h-20 rounded-xl overflow-hidden border border-white/10">
+                                                    <img 
+                                                        src={profileFormData.profileImage} 
+                                                        alt="Profile preview" 
+                                                        className="w-full h-full object-cover" 
+                                                    />
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+                                    {/* Portfolio Theme Palette */}
+                                    <div>
+                                        <label className="block text-textLight text-xs font-mono mb-2">Portfolio Theme Color</label>
+                                        <div className="flex flex-col gap-3">
+                                            <select
+                                                value={profileFormData.themePalette}
+                                                onChange={(e) => {
+                                                    const val = e.target.value;
+                                                    setProfileFormData(prev => ({ ...prev, themePalette: val }));
+                                                    
+                                                    const palette = THEME_PALETTES[val];
+                                                    if (palette) {
+                                                        Object.entries(palette.variables).forEach(([k, v]) => {
+                                                            document.documentElement.style.setProperty(k, v);
+                                                        });
+                                                    }
+                                                }}
+                                                className="w-full bg-[#0a0f1d]/50 border border-white/10 rounded-xl p-3 text-textLight focus:outline-none focus:border-cosmic-cyan focus:ring-1 focus:ring-cosmic-cyan/20 transition-all text-sm font-sans"
+                                            >
+                                                <option value="cosmic-aurora">Cosmic Aurora (Purple & Cyan)</option>
+                                                <option value="neon-nebula">Neon Nebula (Fuchsia & Blue)</option>
+                                                <option value="solar-flare">Solar Flare (Amber & Red)</option>
+                                                <option value="forest-matrix">Forest Matrix (Emerald & Gold)</option>
+                                                <option value="cyber-sentinel">Cyber Sentinel (Mint & Silver)</option>
+                                            </select>
+                                            
+                                            {/* Dynamic color swatches visualizer */}
+                                            <div className="flex gap-2.5 mt-1">
+                                                {Object.entries(THEME_PALETTES).map(([key, pal]) => {
+                                                    const isSelected = profileFormData.themePalette === key;
+                                                    return (
+                                                        <button
+                                                            key={key}
+                                                            type="button"
+                                                            onClick={() => {
+                                                                setProfileFormData(prev => ({ ...prev, themePalette: key }));
+                                                                Object.entries(pal.variables).forEach(([k, v]) => {
+                                                                    document.documentElement.style.setProperty(k, v);
+                                                                });
+                                                            }}
+                                                            className={`p-1.5 rounded-xl border transition-all flex items-center justify-center ${isSelected ? 'border-cosmic-cyan bg-white/5 scale-105' : 'border-white/5 bg-transparent hover:border-white/10'}`}
+                                                            title={pal.name}
+                                                        >
+                                                            <div className="flex gap-1">
+                                                                <div className="w-3.5 h-3.5 rounded-full" style={{ backgroundColor: pal.variables['--accent-primary'] }}></div>
+                                                                <div className="w-3.5 h-3.5 rounded-full" style={{ backgroundColor: pal.variables['--accent-ai'] }}></div>
+                                                            </div>
+                                                        </button>
+                                                    );
+                                                })}
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

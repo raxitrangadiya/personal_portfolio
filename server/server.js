@@ -49,7 +49,7 @@ app.use(cors({
     allowedHeaders: ['Content-Type', 'Authorization', 'x-playwright-test']
 }));
 
-app.use(express.json({ limit: '10kb' })); // Body limit to prevent payload flood
+app.use(express.json({ limit: '2mb' })); // Body limit to accommodate base64 images
 
 // Global Rate Limiter
 const apiLimiter = rateLimit({
@@ -86,13 +86,21 @@ app.use((req, res, next) => {
 
 // MongoDB connection
 mongoose.set('bufferCommands', false);
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolio')
+const primaryMongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/portfolio';
+mongoose.connect(primaryMongoUri)
     .then(async () => {
         console.log('Connected to MongoDB successfully.');
         await seedDatabase();
     })
-    .catch((err) => {
-        console.error('Failed to connect to MongoDB:', err);
+    .catch(async (err) => {
+        console.error('Failed to connect to primary MongoDB, trying local fallback:', err);
+        try {
+            await mongoose.connect('mongodb://127.0.0.1:27017/portfolio');
+            console.log('Connected to local fallback MongoDB successfully.');
+            await seedDatabase();
+        } catch (localErr) {
+            console.error('Failed to connect to both primary and local fallback MongoDB:', localErr);
+        }
     });
 
 // Seeding Default Admin and Projects if empty
@@ -125,7 +133,10 @@ async function seedDatabase() {
                 completedProjects: 15,
                 techCount: 10,
                 githubUrl: "https://github.com/raxitrangadiya",
-                linkedinUrl: "https://www.linkedin.com/in/raxitrangadiya/"
+                linkedinUrl: "https://www.linkedin.com/in/raxitrangadiya/",
+                profileImage: "",
+                navbarLogo: "RR",
+                themePalette: "cosmic-aurora"
             });
             console.log('Seeded default profile data.');
         }

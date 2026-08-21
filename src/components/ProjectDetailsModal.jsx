@@ -18,7 +18,7 @@ export default function ProjectDetailsModal({ project, onClose }) {
     };
 
     return (
-        <div className="fixed inset-0 z-[1000] flex items-center justify-center p-4 md:p-6 overflow-y-auto">
+        <div className="fixed inset-0 z-[1000] flex items-start md:items-center justify-center p-4 md:p-6 overflow-y-auto">
             {/* Modal Backdrop overlay */}
             <motion.div
                 initial={{ opacity: 0 }}
@@ -34,7 +34,7 @@ export default function ProjectDetailsModal({ project, onClose }) {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95, y: 20 }}
                 transition={{ type: 'spring', duration: 0.5 }}
-                className="bg-[#0b0f19] border border-white/10 rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative z-10 shadow-2xl flex flex-col"
+                className="bg-[#0b0f19] border border-white/10 rounded-2xl w-full max-w-4xl relative z-10 shadow-2xl flex flex-col lg:max-h-[85vh] lg:h-[600px] overflow-visible lg:overflow-hidden my-auto"
             >
                 {/* Close Button */}
                 <button

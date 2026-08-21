@@ -7,18 +7,18 @@ export default {
     theme: {
         extend: {
             colors: {
-                bgVoid: "#050811",       // Deep Space Black
-                bgSurface: "#0D1117",    // Panel/Card background
-                bgRaised: "#161B27",     // Elevated panels/nav
-                accentPrimary: "#6C63FF", // Electric Violet
-                accentGlow: "#A78BFA",    // Soft Purple glow
-                accentAi: "#00E5FF",      // AI Cyan
-                accentWarm: "#FF6B6B",    // Coral hovers/alerts
-                textPrimary: "#F0F6FF",   // Near-white body
-                textMuted: "#8892A4",     // Slate-400
-                textDim: "#3D4A5C",       // Slate-600
-                borderGlass: "rgba(108, 99, 255, 0.15)",
-                shadow3d: "rgba(108, 99, 255, 0.35)",
+                bgVoid: "var(--bg-void)",       // Deep Space Black / light neutral
+                bgSurface: "var(--bg-surface)",    // Panel/Card background
+                bgRaised: "var(--bg-raised)",     // Elevated panels/nav
+                accentPrimary: "var(--accent-primary)", // Electric Violet
+                accentGlow: "var(--accent-glow)",    // Soft Purple glow
+                accentAi: "var(--accent-ai)",      // AI Cyan
+                accentWarm: "var(--accent-warm)",    // Coral hovers/alerts
+                textPrimary: "var(--text-primary)",   // Near-white body / dark slate
+                textMuted: "var(--text-muted)",     // Slate-400
+                textDim: "var(--text-dim, #3d4a5c)",       // Slate-600
+                borderGlass: "var(--border-glass)",
+                shadow3d: "var(--shadow-3d)",
             },
             fontFamily: {
                 sans: ['Inter', 'sans-serif'],
